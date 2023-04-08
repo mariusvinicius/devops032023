@@ -1,0 +1,1460 @@
+Apr  2 22:29:51 debian udisksd[397]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Apr  2 22:29:51 debian kernel: [   21.576951] audit: type=1400 audit(1680485391.964:20): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=562 comm="cups-browsed" capability=23  capname="sys_nice"
+Apr  2 22:29:52 debian kernel: [   22.455160] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Apr  2 22:29:52 debian kernel: [   22.462521] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Apr  2 22:29:54 debian vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Apr  2 22:29:55 debian kernel: [   24.993564] 01:29:55.382208 main     VBoxService 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:52) release log
+Apr  2 22:29:55 debian kernel: [   24.993564] 01:29:55.38222
+Apr  2 22:29:55 debian kernel: [   24.995241] 01:29:55.386796 main     OS Product: Linux
+Apr  2 22:29:55 debian kernel: [   24.997212] 01:29:55.388312 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:29:55 debian kernel: [   25.000719] 01:29:55.391276 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:29:55 debian kernel: [   25.005484] 01:29:55.393784 main     Executable: /opt/VBoxGuestAdditions-7.0.4/sbin/VBoxService
+Apr  2 22:29:55 debian kernel: [   25.005484] 01:29:55.393788 main     Process ID: 633
+Apr  2 22:29:55 debian kernel: [   25.005484] 01
+Apr  2 22:29:55 debian kernel: [   25.118547] 01:29:55.507930 main     7.0.4 r154605 started. Verbose level = 0
+Apr  2 22:29:55 debian vboxadd-service.sh: VirtualBox Guest Addition service started.
+Apr  2 22:29:55 debian kernel: [   25.143388] 01:29:55.534109 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Apr  2 22:29:55 debian kernel: [   25.245726] 01:29:55.637718 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:59) release log
+Apr  2 22:29:55 debian kernel: [   25.245726] 01:29:55.637721
+Apr  2 22:29:55 debian kernel: [   25.246097] 01:29:55.638793 main     OS Product: Linux
+Apr  2 22:29:55 debian kernel: [   25.246532] 01:29:55.639156 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:29:55 debian kernel: [   25.247127] 01:29:55.639582 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:29:55 debian lightdm[618]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  2 22:29:55 debian kernel: [   25.248149] 01:29:55.640176 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxDRMClient
+Apr  2 22:29:55 debian kernel: [   25.248149] 01:29:55.640177 main     Process ID: 651
+Apr  2 22:29:55 debian kernel: [   25.248149] 0
+Apr  2 22:29:55 debian kernel: [   25.249709] 01:29:55.642011 main     VBoxDRMClient: found compatible device: /dev/dri/renderD128
+Apr  2 22:29:55 debian kernel: [   25.252141] 01:29:55.644070 main     VBoxDRMClient: IPC server socket access granted to all users
+Apr  2 22:30:26 debian lightdm[699]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  2 22:30:45 debian pulseaudio[719]: Disabling timer-based scheduling because running inside a VM.
+Apr  2 22:30:46 debian pulseaudio[719]: Disabling timer-based scheduling because running inside a VM.
+Apr  2 22:31:44 debian lightdm[769]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  2 22:31:45 debian pulseaudio[790]: Disabling timer-based scheduling because running inside a VM.
+Apr  2 22:31:45 debian pulseaudio[790]: Disabling timer-based scheduling because running inside a VM.
+Apr  2 22:31:46 debian kernel: [   25.255418] 01:29:55.646864 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  2 22:31:46 debian kernel: [  136.103010] 01:31:46.550386 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  2 22:31:46 debian kernel: [  136.103010] 01:31:46.550388
+Apr  2 22:31:46 debian kernel: [  136.103355] 01:31:46.551367 main     OS Product: Linux
+Apr  2 22:31:46 debian kernel: [  136.103753] 01:31:46.551691 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:31:46 debian kernel: [  136.104296] 01:31:46.552089 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:31:46 debian kernel: [  136.105241] 01:31:46.552630 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  2 22:31:46 debian kernel: [  136.105241] 01:31:46.552631 main     Process ID: 844
+Apr  2 22:31:46 debian kernel: [  136.105241] 01:3
+Apr  2 22:31:46 debian kernel: [  136.106119] 01:31:46.553589 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  2 22:31:46 debian kernel: [  136.106648] 01:31:46.554500 main      Service: Shared Clipboard
+Apr  2 22:31:46 debian kernel: [  136.109283] 01:31:46.557057 main      Initializing service ...
+Apr  2 22:31:46 debian kernel: [  136.109856] 01:31:46.557634 main      Creating worker thread ...
+Apr  2 22:31:46 debian kernel: [  136.111986] 01:31:46.559316 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  2 22:31:46 debian kernel: [  136.111986] 01:31:46.559320
+Apr  2 22:31:46 debian kernel: [  136.112341] 01:31:46.560349 main     OS Product: Linux
+Apr  2 22:31:46 debian kernel: [  136.112726] 01:31:46.560682 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:31:46 debian kernel: [  136.113273] 01:31:46.561065 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:31:46 debian kernel: [  136.114180] 01:31:46.561613 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  2 22:31:46 debian kernel: [  136.114180] 01:31:46.561614 main     Process ID: 848
+Apr  2 22:31:46 debian kernel: [  136.114180] 01:3
+Apr  2 22:31:46 debian kernel: [  136.115275] 01:31:46.562820 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  2 22:31:46 debian kernel: [  136.115741] 01:31:46.563617 main      Service: VirtualBox host version check
+Apr  2 22:31:46 debian kernel: [  136.120179] 01:31:46.567522 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  2 22:31:46 debian kernel: [  136.120179] 01:31:46.567524
+Apr  2 22:31:46 debian kernel: [  136.120606] 01:31:46.568628 main     OS Product: Linux
+Apr  2 22:31:46 debian kernel: [  136.120991] 01:31:46.568951 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:31:46 debian kernel: [  136.121536] 01:31:46.569335 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:31:46 debian kernel: [  136.122525] 01:31:46.569942 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  2 22:31:46 debian kernel: [  136.122525] 01:31:46.569943 main     Process ID: 856
+Apr  2 22:31:46 debian kernel: [  136.122525] 01:3
+Apr  2 22:31:46 debian kernel: [  136.123375] 01:31:46.570927 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  2 22:31:46 debian kernel: [  136.123789] 01:31:46.571721 main      Service: Seamless Mode Support
+Apr  2 22:31:46 debian kernel: [  136.128015] 01:31:46.575438 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  2 22:31:46 debian kernel: [  136.128015] 01:31:46.575441
+Apr  2 22:31:46 debian kernel: [  136.128349] 01:31:46.576380 main     OS Product: Linux
+Apr  2 22:31:46 debian kernel: [  136.128732] 01:31:46.576697 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:31:46 debian kernel: [  136.129357] 01:31:46.577079 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:31:46 debian kernel: [  136.130241] 01:31:46.577708 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  2 22:31:46 debian kernel: [  136.130241] 01:31:46.577709 main     Process ID: 861
+Apr  2 22:31:46 debian kernel: [  136.130241] 01:3
+Apr  2 22:31:46 debian kernel: [  136.131195] 01:31:46.578620 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  2 22:31:46 debian kernel: [  136.131731] 01:31:46.579596 main      Service: Drag'n'Drop
+Apr  2 22:31:46 debian kernel: [  136.132722] 01:31:46.580674 main      Creating worker thread ...
+Apr  2 22:31:46 debian kernel: [  136.133106] 01:31:46.580709 main      Initializing service ...
+Apr  2 22:31:46 debian kernel: [  136.137326] 01:31:46.585231 main      Service started
+Apr  2 22:31:46 debian kernel: [  136.137817] 01:31:46.585432 main      Initializing service ...
+Apr  2 22:31:46 debian kernel: [  136.138546] 01:31:46.586368 main      Creating worker thread ...
+Apr  2 22:31:46 debian kernel: [  136.142970] 01:31:46.590987 main      Service started
+Apr  2 22:31:46 debian kernel: [  136.144321] 01:31:46.591772 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  2 22:31:46 debian kernel: [  136.144321] 01:31:46.591775
+Apr  2 22:31:46 debian kernel: [  136.145229] 01:31:46.593166 main      Creating worker thread ...
+Apr  2 22:31:46 debian kernel: [  136.146406] 01:31:46.594259 dnd       Proxy window=8388609, root window=1330 ...
+Apr  2 22:31:46 debian kernel: [  136.146719] 01:31:46.594720 main     OS Product: Linux
+Apr  2 22:31:46 debian kernel: [  136.147136] 01:31:46.595129 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:31:46 debian kernel: [  136.147641] 01:31:46.595493 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:31:46 debian kernel: [  136.148487] 01:31:46.595997 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  2 22:31:46 debian kernel: [  136.148487] 01:31:46.595998 main     Process ID: 869
+Apr  2 22:31:46 debian kernel: [  136.148487] 01:3
+Apr  2 22:31:46 debian kernel: [  136.149249] 01:31:46.596847 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  2 22:31:46 debian kernel: [  136.149711] 01:31:46.597607 main      Service: VMSVGA display assistant
+Apr  2 22:31:46 debian kernel: [  136.150752] 01:31:46.598809 main      Service started
+Apr  2 22:31:46 debian kernel: [  136.153586] 01:31:46.601530 main      Initializing service ...
+Apr  2 22:31:46 debian kernel: [  136.167606] 01:31:46.615549 main      Service started
+Apr  2 22:31:46 debian kernel: [  136.182397] 01:31:46.630160 main     VBoxClient VMSVGA: probing Desktop Environment helper 'GNOME3'
+Apr  2 22:31:46 debian kernel: [  136.183029] 01:31:46.630775 main     VBoxClient VMSVGA: probing Desktop Environment helper 'GENERIC'
+Apr  2 22:31:46 debian kernel: [  136.184810] 01:31:46.632453 main     VBoxClient VMSVGA: attempt to start display change monitor thread, rc=VINF_SUCCESS
+Apr  2 22:31:46 debian kernel: [  136.185552] 01:31:46.633185 main     VBoxClient VMSVGA: using Desktop Environment specific display helper 'GENERIC'
+Apr  2 22:31:46 debian kernel: [  136.186390] 01:31:46.634159 main     VBoxClient VMSVGA: Creating worker thread ...
+Apr  2 22:31:46 debian kernel: [  136.187177] 01:31:46.635037 IpcCLT-880 VBoxDRMClient: IPC client connection started
+Apr  2 22:31:46 debian kernel: [  136.187900] 01:31:46.635848 main     VBoxClient VMSVGA: Service started
+Apr  2 22:31:50 debian kernel: [  139.607869] 01:31:50.056731 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  2 22:31:50 debian kernel: [  139.607869] 01:31:50.056734
+Apr  2 22:31:50 debian kernel: [  139.608395] 01:31:50.058058 main     OS Product: Linux
+Apr  2 22:31:50 debian kernel: [  139.608900] 01:31:50.058502 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:31:50 debian kernel: [  139.609580] 01:31:50.058993 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:31:50 debian kernel: [  139.610719] 01:31:50.059673 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  2 22:31:50 debian kernel: [  139.610719] 01:31:50.059674 main     Process ID: 997
+Apr  2 22:31:50 debian kernel: [  139.610719] 01:3
+Apr  2 22:31:50 debian kernel: [  139.611746] 01:31:50.060817 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  2 22:31:50 debian kernel: [  139.612291] 01:31:50.061898 main      Service: Shared Clipboard
+Apr  2 22:31:50 debian kernel: [  139.641622] 01:31:50.090577 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  2 22:31:50 debian kernel: [  139.641622] 01:31:50.090581
+Apr  2 22:31:50 debian kernel: [  139.642203] 01:31:50.091911 main     OS Product: Linux
+Apr  2 22:31:50 debian kernel: [  139.642681] 01:31:50.092323 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:31:50 debian kernel: [  139.643386] 01:31:50.092790 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:31:50 debian kernel: [  139.645223] 01:31:50.094174 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  2 22:31:50 debian kernel: [  139.645223] 01:31:50.094177 main     Process ID: 1000
+Apr  2 22:31:50 debian kernel: [  139.645223] 01:
+Apr  2 22:31:50 debian kernel: [  139.646211] 01:31:50.095345 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  2 22:31:50 debian kernel: [  139.646790] 01:31:50.096327 main      Service: VirtualBox host version check
+Apr  2 22:31:50 debian kernel: [  139.651416] 01:31:50.100991 main      Creating worker thread ...
+Apr  2 22:31:50 debian kernel: [  139.654004] 01:31:50.103708 main      Service started
+Apr  2 22:31:50 debian kernel: [  139.714103] 01:31:50.163185 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  2 22:31:50 debian kernel: [  139.714103] 01:31:50.163189
+Apr  2 22:31:50 debian kernel: [  139.714535] 01:31:50.164282 main     OS Product: Linux
+Apr  2 22:31:50 debian kernel: [  139.715038] 01:31:50.164689 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:31:50 debian kernel: [  139.715709] 01:31:50.165195 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:31:50 debian kernel: [  139.717129] 01:31:50.166264 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  2 22:31:50 debian kernel: [  139.717129] 01:31:50.166265 main     Process ID: 1005
+Apr  2 22:31:50 debian kernel: [  139.717129] 01:
+Apr  2 22:31:50 debian kernel: [  139.717909] 01:31:50.167284 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  2 22:31:50 debian kernel: [  139.718308] 01:31:50.168054 main      Service: Seamless Mode Support
+Apr  2 22:31:50 debian kernel: [  139.750378] 01:31:50.199612 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  2 22:31:50 debian kernel: [  139.750378] 01:31:50.199615
+Apr  2 22:31:50 debian kernel: [  139.750723] 01:31:50.200574 main     OS Product: Linux
+Apr  2 22:31:50 debian kernel: [  139.751094] 01:31:50.200885 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:31:50 debian kernel: [  139.751608] 01:31:50.201254 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:31:50 debian kernel: [  139.752488] 01:31:50.201768 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  2 22:31:50 debian kernel: [  139.752488] 01:31:50.201769 main     Process ID: 1014
+Apr  2 22:31:50 debian kernel: [  139.752488] 01:
+Apr  2 22:31:50 debian kernel: [  139.753645] 01:31:50.203001 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  2 22:31:50 debian kernel: [  139.753983] 01:31:50.203812 main      Service: Drag'n'Drop
+Apr  2 22:31:50 debian kernel: [  139.769707] 01:31:50.218943 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  2 22:31:50 debian kernel: [  139.769707] 01:31:50.218945
+Apr  2 22:31:50 debian kernel: [  139.770156] 01:31:50.219994 main     OS Product: Linux
+Apr  2 22:31:50 debian kernel: [  139.770582] 01:31:50.220361 main     OS Release: 5.10.0-21-amd64
+Apr  2 22:31:50 debian kernel: [  139.771153] 01:31:50.220782 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  2 22:31:50 debian kernel: [  139.772085] 01:31:50.221368 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  2 22:31:50 debian kernel: [  139.772085] 01:31:50.221369 main     Process ID: 1021
+Apr  2 22:31:50 debian kernel: [  139.772085] 01:
+Apr  2 22:31:50 debian kernel: [  139.773431] 01:31:50.222713 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  2 22:31:50 debian kernel: [  139.773948] 01:31:50.223685 main      Service: VMSVGA display assistant
+Apr  2 22:31:50 debian kernel: [  139.778157] 01:31:50.227898 main      Initializing service ...
+Apr  2 22:31:50 debian kernel: [  139.778939] 01:31:50.228417 main     VBoxClient VMSVGA: Error: Service ended with error VERR_FILE_LOCK_VIOLATION
+Apr  2 22:31:50 debian colord[1031]: failed to get edid data: EDID length is too small
+Apr  2 22:31:52 debian org.freedesktop.thumbnails.Thumbnailer1[969]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Apr  2 22:31:52 debian org.freedesktop.thumbnails.Thumbnailer1[969]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Apr  2 22:31:52 debian org.freedesktop.thumbnails.Thumbnailer1[969]: Registered thumbnailer atril-thumbnailer -s %s %u %o
+Apr  2 22:31:55 debian pipewire-media-session[727]: error id:0 seq:158 res:-32 (Broken pipe): connection error
+Apr  2 22:32:04 debian kernel: [  154.207027] traps: xfwm4[922] trap int3 ip:7f619e96fabb sp:7fff01296120 error:0 in libglib-2.0.so.0.6600.8[7f619e931000+88000]
+Apr  2 22:32:04 debian kernel: [  154.508033] 01:32:04.965058 main      Terminating service
+Apr  2 22:32:04 debian kernel: [  154.508536] 01:32:04.965619 main      Service terminated
+Apr  2 22:32:04 debian kernel: [  154.516890] 01:32:04.973982 main      Terminating service
+Apr  2 22:32:04 debian kernel: [  154.517332] 01:32:04.974453 main      Service terminated
+Apr  8 09:02:47 debian kernel: [    0.000000] Linux version 5.10.0-21-amd64 (debian-kernel@lists.debian.org) (gcc-10 (Debian 10.2.1-6) 10.2.1 20210110, GNU ld (GNU Binutils for Debian) 2.35.2) #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:02:47 debian kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.10.0-21-amd64 root=UUID=e7221505-6359-4f94-8394-28790b2bd726 ro quiet
+Apr  8 09:02:47 debian kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Apr  8 09:02:47 debian kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Apr  8 09:02:47 debian kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Apr  8 09:02:47 debian kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Apr  8 09:02:47 debian kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Apr  8 09:02:47 debian kernel: [    0.000000] BIOS-provided physical RAM map:
+Apr  8 09:02:47 debian kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Apr  8 09:02:47 debian kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Apr  8 09:02:47 debian kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Apr  8 09:02:47 debian kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+Apr  8 09:02:47 debian kernel: [    0.000000] BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+Apr  8 09:02:47 debian kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Apr  8 09:02:47 debian kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Apr  8 09:02:47 debian kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Apr  8 09:02:47 debian kernel: [    0.000000] NX (Execute Disable) protection: active
+Apr  8 09:02:47 debian kernel: [    0.000000] SMBIOS 2.5 present.
+Apr  8 09:02:47 debian kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Apr  8 09:02:47 debian kernel: [    0.000000] Hypervisor detected: KVM
+Apr  8 09:02:47 debian kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Apr  8 09:02:47 debian kernel: [    0.000000] kvm-clock: cpu 0, msr 3c401001, primary cpu clock
+Apr  8 09:02:47 debian kernel: [    0.000001] kvm-clock: using sched offset of 10474224621 cycles
+Apr  8 09:02:47 debian kernel: [    0.000004] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Apr  8 09:02:47 debian kernel: [    0.000009] tsc: Detected 2591.998 MHz processor
+Apr  8 09:02:47 debian kernel: [    0.001944] last_pfn = 0x7fff0 max_arch_pfn = 0x400000000
+Apr  8 09:02:47 debian kernel: [    0.001965] Disabled
+Apr  8 09:02:47 debian kernel: [    0.001967] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Apr  8 09:02:47 debian kernel: [    0.001971] CPU MTRRs all blank - virtualized system.
+Apr  8 09:02:47 debian kernel: [    0.001975] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Apr  8 09:02:47 debian kernel: [    0.002048] found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+Apr  8 09:02:47 debian kernel: [    0.153714] RAMDISK: [mem 0x32e1d000-0x35705fff]
+Apr  8 09:02:47 debian kernel: [    0.153720] ACPI: Early table checksum verification disabled
+Apr  8 09:02:47 debian kernel: [    0.153726] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Apr  8 09:02:47 debian kernel: [    0.153734] ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Apr  8 09:02:47 debian kernel: [    0.153743] ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Apr  8 09:02:47 debian kernel: [    0.153752] ACPI: DSDT 0x000000007FFF0610 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20200925)
+Apr  8 09:02:47 debian kernel: [    0.153759] ACPI: FACS 0x000000007FFF0200 000040
+Apr  8 09:02:47 debian kernel: [    0.153765] ACPI: FACS 0x000000007FFF0200 000040
+Apr  8 09:02:47 debian kernel: [    0.153771] ACPI: APIC 0x000000007FFF0240 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Apr  8 09:02:47 debian kernel: [    0.153778] ACPI: SSDT 0x000000007FFF02A0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20200925)
+Apr  8 09:02:47 debian kernel: [    0.153784] ACPI: Reserving FACP table memory at [mem 0x7fff00f0-0x7fff01e3]
+Apr  8 09:02:47 debian kernel: [    0.153786] ACPI: Reserving DSDT table memory at [mem 0x7fff0610-0x7fff2962]
+Apr  8 09:02:47 debian kernel: [    0.153788] ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+Apr  8 09:02:47 debian kernel: [    0.153790] ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+Apr  8 09:02:47 debian kernel: [    0.153792] ACPI: Reserving APIC table memory at [mem 0x7fff0240-0x7fff029b]
+Apr  8 09:02:47 debian kernel: [    0.153794] ACPI: Reserving SSDT table memory at [mem 0x7fff02a0-0x7fff060b]
+Apr  8 09:02:47 debian kernel: [    0.154092] No NUMA configuration found
+Apr  8 09:02:47 debian kernel: [    0.154095] Faking a node at [mem 0x0000000000000000-0x000000007ffeffff]
+Apr  8 09:02:47 debian kernel: [    0.154110] NODE_DATA(0) allocated [mem 0x7ffc6000-0x7ffeffff]
+Apr  8 09:02:47 debian kernel: [    0.154839] Zone ranges:
+Apr  8 09:02:47 debian kernel: [    0.154843]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Apr  8 09:02:47 debian kernel: [    0.154848]   DMA32    [mem 0x0000000001000000-0x000000007ffeffff]
+Apr  8 09:02:47 debian kernel: [    0.154851]   Normal   empty
+Apr  8 09:02:47 debian kernel: [    0.154853]   Device   empty
+Apr  8 09:02:47 debian kernel: [    0.154856] Movable zone start for each node
+Apr  8 09:02:47 debian kernel: [    0.154860] Early memory node ranges
+Apr  8 09:02:47 debian kernel: [    0.154862]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Apr  8 09:02:47 debian kernel: [    0.154864]   node   0: [mem 0x0000000000100000-0x000000007ffeffff]
+Apr  8 09:02:47 debian kernel: [    0.154868] Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffeffff]
+Apr  8 09:02:47 debian kernel: [    0.154886] On node 0, zone DMA: 1 pages in unavailable ranges
+Apr  8 09:02:47 debian kernel: [    0.154956] On node 0, zone DMA: 97 pages in unavailable ranges
+Apr  8 09:02:47 debian kernel: [    0.156267] On node 0, zone DMA32: 16 pages in unavailable ranges
+Apr  8 09:02:47 debian kernel: [    0.157005] ACPI: PM-Timer IO Port: 0x4008
+Apr  8 09:02:47 debian kernel: [    0.157151] IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+Apr  8 09:02:47 debian kernel: [    0.157157] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Apr  8 09:02:47 debian kernel: [    0.157160] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Apr  8 09:02:47 debian kernel: [    0.157168] Using ACPI (MADT) for SMP configuration information
+Apr  8 09:02:47 debian kernel: [    0.157181] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Apr  8 09:02:47 debian kernel: [    0.157227] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Apr  8 09:02:47 debian kernel: [    0.157230] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Apr  8 09:02:47 debian kernel: [    0.157232] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Apr  8 09:02:47 debian kernel: [    0.157234] PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Apr  8 09:02:47 debian kernel: [    0.157237] [mem 0x80000000-0xfebfffff] available for PCI devices
+Apr  8 09:02:47 debian kernel: [    0.157239] Booting paravirtualized kernel on KVM
+Apr  8 09:02:47 debian kernel: [    0.157243] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Apr  8 09:02:47 debian kernel: [    0.162751] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Apr  8 09:02:47 debian kernel: [    0.162907] percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u1048576
+Apr  8 09:02:47 debian kernel: [    0.162967] kvm-guest: PV spinlocks enabled
+Apr  8 09:02:47 debian kernel: [    0.162972] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.162992] Built 1 zonelists, mobility grouping on.  Total pages: 515961
+Apr  8 09:02:47 debian kernel: [    0.162994] Policy zone: DMA32
+Apr  8 09:02:47 debian kernel: [    0.162997] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.10.0-21-amd64 root=UUID=e7221505-6359-4f94-8394-28790b2bd726 ro quiet
+Apr  8 09:02:47 debian kernel: [    0.163158] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.163215] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.163284] mem auto-init: stack:off, heap alloc:on, heap free:off
+Apr  8 09:02:47 debian kernel: [    0.167931] Memory: 261408K/2096696K available (12295K kernel code, 2537K rwdata, 7560K rodata, 2660K init, 5468K bss, 115476K reserved, 0K cma-reserved)
+Apr  8 09:02:47 debian kernel: [    0.168921] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Apr  8 09:02:47 debian kernel: [    0.168976] Kernel/User page tables isolation: enabled
+Apr  8 09:02:47 debian kernel: [    0.169001] ftrace: allocating 36545 entries in 143 pages
+Apr  8 09:02:47 debian kernel: [    0.202382] ftrace: allocated 143 pages with 5 groups
+Apr  8 09:02:47 debian kernel: [    0.202661] rcu: Hierarchical RCU implementation.
+Apr  8 09:02:47 debian kernel: [    0.202677] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+Apr  8 09:02:47 debian kernel: [    0.202678] 	Rude variant of Tasks RCU enabled.
+Apr  8 09:02:47 debian kernel: [    0.202679] 	Tracing variant of Tasks RCU enabled.
+Apr  8 09:02:47 debian kernel: [    0.202681] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Apr  8 09:02:47 debian kernel: [    0.202683] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Apr  8 09:02:47 debian kernel: [    0.211788] NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+Apr  8 09:02:47 debian kernel: [    0.212620] random: crng init done
+Apr  8 09:02:47 debian kernel: [    0.236311] Console: colour VGA+ 80x25
+Apr  8 09:02:47 debian kernel: [    0.236335] printk: console [tty0] enabled
+Apr  8 09:02:47 debian kernel: [    0.236374] ACPI: Core revision 20200925
+Apr  8 09:02:47 debian kernel: [    0.236603] APIC: Switch to symmetric I/O mode setup
+Apr  8 09:02:47 debian kernel: [    0.237236] x2apic enabled
+Apr  8 09:02:47 debian kernel: [    0.237830] Switched APIC routing to physical x2apic.
+Apr  8 09:02:47 debian kernel: [    0.240405] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Apr  8 09:02:47 debian kernel: [    0.240468] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x255cb518234, max_idle_ns: 440795279333 ns
+Apr  8 09:02:47 debian kernel: [    0.240479] Calibrating delay loop (skipped) preset value.. 5183.99 BogoMIPS (lpj=10367992)
+Apr  8 09:02:47 debian kernel: [    0.240484] pid_max: default: 32768 minimum: 301
+Apr  8 09:02:47 debian kernel: [    0.240539] LSM: Security Framework initializing
+Apr  8 09:02:47 debian kernel: [    0.240568] Yama: disabled by default; enable with sysctl kernel.yama.*
+Apr  8 09:02:47 debian kernel: [    0.240615] AppArmor: AppArmor initialized
+Apr  8 09:02:47 debian kernel: [    0.240618] TOMOYO Linux initialized
+Apr  8 09:02:47 debian kernel: [    0.240643] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.240652] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.241349] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Apr  8 09:02:47 debian kernel: [    0.241355] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Apr  8 09:02:47 debian kernel: [    0.241363] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Apr  8 09:02:47 debian kernel: [    0.241367] Spectre V2 : Mitigation: Retpolines
+Apr  8 09:02:47 debian kernel: [    0.241369] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Apr  8 09:02:47 debian kernel: [    0.241370] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+Apr  8 09:02:47 debian kernel: [    0.242173] RETBleed: Vulnerable
+Apr  8 09:02:47 debian kernel: [    0.242176] Speculative Store Bypass: Vulnerable
+Apr  8 09:02:47 debian kernel: [    0.242193] MDS: Mitigation: Clear CPU buffers
+Apr  8 09:02:47 debian kernel: [    0.242196] MMIO Stale Data: Mitigation: Clear CPU buffers
+Apr  8 09:02:47 debian kernel: [    0.242199] SRBDS: Unknown: Dependent on hypervisor status
+Apr  8 09:02:47 debian kernel: [    0.244473] Freeing SMP alternatives memory: 32K
+Apr  8 09:02:47 debian kernel: [    0.355488] APIC calibration not consistent with PM-Timer: 107ms instead of 100ms
+Apr  8 09:02:47 debian kernel: [    0.355492] APIC delta adjusted to PM-Timer: 6482636 (6938272)
+Apr  8 09:02:47 debian kernel: [    0.355636] smpboot: CPU0: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz (family: 0x6, model: 0x4e, stepping: 0x3)
+Apr  8 09:02:47 debian kernel: [    0.355891] Performance Events: unsupported p6 CPU model 78 no PMU driver, software events only.
+Apr  8 09:02:47 debian kernel: [    0.355955] rcu: Hierarchical SRCU implementation.
+Apr  8 09:02:47 debian kernel: [    0.356470] NMI watchdog: Perf NMI watchdog permanently disabled
+Apr  8 09:02:47 debian kernel: [    0.356473] smp: Bringing up secondary CPUs ...
+Apr  8 09:02:47 debian kernel: [    0.356473] x86: Booting SMP configuration:
+Apr  8 09:02:47 debian kernel: [    0.356473] .... node  #0, CPUs:      #1
+Apr  8 09:02:47 debian kernel: [    0.031910] kvm-clock: cpu 1, msr 3c401041, secondary cpu clock
+Apr  8 09:02:47 debian kernel: [    0.356541] smp: Brought up 1 node, 2 CPUs
+Apr  8 09:02:47 debian kernel: [    0.356544] smpboot: Max logical packages: 1
+Apr  8 09:02:47 debian kernel: [    0.356547] smpboot: Total of 2 processors activated (10367.99 BogoMIPS)
+Apr  8 09:02:47 debian kernel: [    0.366044] node 0 deferred pages initialised in 8ms
+Apr  8 09:02:47 debian kernel: [    0.366239] devtmpfs: initialized
+Apr  8 09:02:47 debian kernel: [    0.366239] x86/mm: Memory block size: 128MB
+Apr  8 09:02:47 debian kernel: [    0.366239] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Apr  8 09:02:47 debian kernel: [    0.366239] futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.366239] pinctrl core: initialized pinctrl subsystem
+Apr  8 09:02:47 debian kernel: [    0.368570] NET: Registered protocol family 16
+Apr  8 09:02:47 debian kernel: [    0.368739] DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+Apr  8 09:02:47 debian kernel: [    0.368773] DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Apr  8 09:02:47 debian kernel: [    0.368811] DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Apr  8 09:02:47 debian kernel: [    0.368834] audit: initializing netlink subsys (disabled)
+Apr  8 09:02:47 debian kernel: [    0.368868] thermal_sys: Registered thermal governor 'fair_share'
+Apr  8 09:02:47 debian kernel: [    0.368868] thermal_sys: Registered thermal governor 'bang_bang'
+Apr  8 09:02:47 debian kernel: [    0.368868] thermal_sys: Registered thermal governor 'step_wise'
+Apr  8 09:02:47 debian kernel: [    0.368868] thermal_sys: Registered thermal governor 'user_space'
+Apr  8 09:02:47 debian kernel: [    0.368868] thermal_sys: Registered thermal governor 'power_allocator'
+Apr  8 09:02:47 debian kernel: [    0.368868] cpuidle: using governor ladder
+Apr  8 09:02:47 debian kernel: [    0.368868] cpuidle: using governor menu
+Apr  8 09:02:47 debian kernel: [    0.368868] ACPI: bus type PCI registered
+Apr  8 09:02:47 debian kernel: [    0.368868] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Apr  8 09:02:47 debian kernel: [    0.368954] PCI: Using configuration type 1 for base access
+Apr  8 09:02:47 debian kernel: [    0.372534] Kprobes globally optimized
+Apr  8 09:02:47 debian kernel: [    0.372555] audit: type=2000 audit(1680955368.418:1): state=initialized audit_enabled=0 res=1
+Apr  8 09:02:47 debian kernel: [    0.372575] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Apr  8 09:02:47 debian kernel: [    0.560855] ACPI: Added _OSI(Module Device)
+Apr  8 09:02:47 debian kernel: [    0.560855] ACPI: Added _OSI(Processor Device)
+Apr  8 09:02:47 debian kernel: [    0.560855] ACPI: Added _OSI(3.0 _SCP Extensions)
+Apr  8 09:02:47 debian kernel: [    0.560855] ACPI: Added _OSI(Processor Aggregator Device)
+Apr  8 09:02:47 debian kernel: [    0.560855] ACPI: Added _OSI(Linux-Dell-Video)
+Apr  8 09:02:47 debian kernel: [    0.560855] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Apr  8 09:02:47 debian kernel: [    0.560855] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Apr  8 09:02:47 debian kernel: [    0.566681] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Apr  8 09:02:47 debian kernel: [    0.569141] ACPI: Interpreter enabled
+Apr  8 09:02:47 debian kernel: [    0.569158] ACPI: (supports S0 S5)
+Apr  8 09:02:47 debian kernel: [    0.569160] ACPI: Using IOAPIC for interrupt routing
+Apr  8 09:02:47 debian kernel: [    0.569441] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Apr  8 09:02:47 debian kernel: [    0.569624] ACPI: Enabled 2 GPEs in block 00 to 07
+Apr  8 09:02:47 debian kernel: [    0.578422] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Apr  8 09:02:47 debian kernel: [    0.578431] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI HPX-Type3]
+Apr  8 09:02:47 debian kernel: [    0.579546] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Apr  8 09:02:47 debian kernel: [    0.579559] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Apr  8 09:02:47 debian kernel: [    0.580112] PCI host bridge to bus 0000:00
+Apr  8 09:02:47 debian kernel: [    0.580116] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Apr  8 09:02:47 debian kernel: [    0.580118] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Apr  8 09:02:47 debian kernel: [    0.580120] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Apr  8 09:02:47 debian kernel: [    0.580122] pci_bus 0000:00: root bus resource [mem 0x80000000-0xfdffffff window]
+Apr  8 09:02:47 debian kernel: [    0.580124] pci_bus 0000:00: root bus resource [bus 00-ff]
+Apr  8 09:02:47 debian kernel: [    0.580183] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Apr  8 09:02:47 debian kernel: [    0.581271] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Apr  8 09:02:47 debian kernel: [    0.582491] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Apr  8 09:02:47 debian kernel: [    0.583144] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Apr  8 09:02:47 debian kernel: [    0.583379] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Apr  8 09:02:47 debian kernel: [    0.583381] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Apr  8 09:02:47 debian kernel: [    0.583383] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Apr  8 09:02:47 debian kernel: [    0.583385] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Apr  8 09:02:47 debian kernel: [    0.583878] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+Apr  8 09:02:47 debian kernel: [    0.584914] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+Apr  8 09:02:47 debian kernel: [    0.586501] pci 0000:00:02.0: reg 0x14: [mem 0xe0000000-0xe0ffffff pref]
+Apr  8 09:02:47 debian kernel: [    0.588972] pci 0000:00:02.0: reg 0x18: [mem 0xf0000000-0xf01fffff]
+Apr  8 09:02:47 debian kernel: [    0.595106] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Apr  8 09:02:47 debian kernel: [    0.596704] pci 0000:00:03.0: reg 0x10: [mem 0xf0200000-0xf021ffff]
+Apr  8 09:02:47 debian kernel: [    0.602180] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+Apr  8 09:02:47 debian kernel: [    0.609083] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Apr  8 09:02:47 debian kernel: [    0.611370] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Apr  8 09:02:47 debian kernel: [    0.612588] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Apr  8 09:02:47 debian kernel: [    0.614028] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Apr  8 09:02:47 debian kernel: [    0.621012] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Apr  8 09:02:47 debian kernel: [    0.621189] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Apr  8 09:02:47 debian kernel: [    0.621280] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Apr  8 09:02:47 debian kernel: [    0.622247] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Apr  8 09:02:47 debian kernel: [    0.624642] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Apr  8 09:02:47 debian kernel: [    0.634512] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Apr  8 09:02:47 debian kernel: [    0.635307] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Apr  8 09:02:47 debian kernel: [    0.635324] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Apr  8 09:02:47 debian kernel: [    0.635868] pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320
+Apr  8 09:02:47 debian kernel: [    0.639281] pci 0000:00:0b.0: reg 0x10: [mem 0xf0805000-0xf0805fff]
+Apr  8 09:02:47 debian kernel: [    0.653342] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Apr  8 09:02:47 debian kernel: [    0.655180] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Apr  8 09:02:47 debian kernel: [    0.656473] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Apr  8 09:02:47 debian kernel: [    0.656643] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Apr  8 09:02:47 debian kernel: [    0.657933] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Apr  8 09:02:47 debian kernel: [    0.660618] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Apr  8 09:02:47 debian kernel: [    0.661930] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Apr  8 09:02:47 debian kernel: [    0.666460] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Apr  8 09:02:47 debian kernel: [    0.666910] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Apr  8 09:02:47 debian kernel: [    0.667055] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Apr  8 09:02:47 debian kernel: [    0.667196] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Apr  8 09:02:47 debian kernel: [    0.667438] iommu: Default domain type: Translated 
+Apr  8 09:02:47 debian kernel: [    0.667546] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Apr  8 09:02:47 debian kernel: [    0.667548] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Apr  8 09:02:47 debian kernel: [    0.667552] pci 0000:00:02.0: vgaarb: bridge control possible
+Apr  8 09:02:47 debian kernel: [    0.667554] vgaarb: loaded
+Apr  8 09:02:47 debian kernel: [    0.667643] EDAC MC: Ver: 3.0.0
+Apr  8 09:02:47 debian kernel: [    0.668740] NetLabel: Initializing
+Apr  8 09:02:47 debian kernel: [    0.668742] NetLabel:  domain hash size = 128
+Apr  8 09:02:47 debian kernel: [    0.668743] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Apr  8 09:02:47 debian kernel: [    0.668767] NetLabel:  unlabeled traffic allowed by default
+Apr  8 09:02:47 debian kernel: [    0.668769] PCI: Using ACPI for IRQ routing
+Apr  8 09:02:47 debian kernel: [    0.669259] clocksource: Switched to clocksource kvm-clock
+Apr  8 09:02:47 debian kernel: [    0.684990] VFS: Disk quotas dquot_6.6.0
+Apr  8 09:02:47 debian kernel: [    0.685012] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Apr  8 09:02:47 debian kernel: [    0.685173] AppArmor: AppArmor Filesystem Enabled
+Apr  8 09:02:47 debian kernel: [    0.685198] pnp: PnP ACPI init
+Apr  8 09:02:47 debian kernel: [    0.686391] pnp: PnP ACPI: found 2 devices
+Apr  8 09:02:47 debian kernel: [    0.692799] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Apr  8 09:02:47 debian kernel: [    0.692911] NET: Registered protocol family 2
+Apr  8 09:02:47 debian kernel: [    0.692966] IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.693701] tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.693736] TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.693794] TCP bind hash table entries: 16384 (order: 6, 262144 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.693833] TCP: Hash tables configured (established 16384 bind 16384)
+Apr  8 09:02:47 debian kernel: [    0.693888] UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.693897] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Apr  8 09:02:47 debian kernel: [    0.693970] NET: Registered protocol family 1
+Apr  8 09:02:47 debian kernel: [    0.693979] NET: Registered protocol family 44
+Apr  8 09:02:47 debian kernel: [    0.693992] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Apr  8 09:02:47 debian kernel: [    0.693994] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Apr  8 09:02:47 debian kernel: [    0.693996] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Apr  8 09:02:47 debian kernel: [    0.693998] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfdffffff window]
+Apr  8 09:02:47 debian kernel: [    0.694070] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Apr  8 09:02:47 debian kernel: [    0.694132] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Apr  8 09:02:47 debian kernel: [    0.694205] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Apr  8 09:02:47 debian kernel: [    0.696774] PCI: CLS 0 bytes, default 64
+Apr  8 09:02:47 debian kernel: [    0.696774] Trying to unpack rootfs image as initramfs...
+Apr  8 09:02:47 debian kernel: [    1.684982] Freeing initrd memory: 41892K
+Apr  8 09:02:47 debian kernel: [    1.684982] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x255cb518234, max_idle_ns: 440795279333 ns
+Apr  8 09:02:47 debian kernel: [    1.687598] clocksource: Switched to clocksource tsc
+Apr  8 09:02:47 debian kernel: [    1.687648] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Apr  8 09:02:47 debian kernel: [    1.691083] Initialise system trusted keyrings
+Apr  8 09:02:47 debian kernel: [    1.691095] Key type blacklist registered
+Apr  8 09:02:47 debian kernel: [    1.693153] workingset: timestamp_bits=36 max_order=19 bucket_order=0
+Apr  8 09:02:47 debian kernel: [    1.695221] zbud: loaded
+Apr  8 09:02:47 debian kernel: [    1.695562] integrity: Platform Keyring initialized
+Apr  8 09:02:47 debian kernel: [    1.695566] Key type asymmetric registered
+Apr  8 09:02:47 debian kernel: [    1.695567] Asymmetric key parser 'x509' registered
+Apr  8 09:02:47 debian kernel: [    1.695577] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Apr  8 09:02:47 debian kernel: [    1.696403] io scheduler mq-deadline registered
+Apr  8 09:02:47 debian kernel: [    1.697264] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Apr  8 09:02:47 debian kernel: [    1.697720] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Apr  8 09:02:47 debian kernel: [    1.698187] Linux agpgart interface v0.103
+Apr  8 09:02:47 debian kernel: [    1.698305] AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+Apr  8 09:02:47 debian kernel: [    1.698670] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Apr  8 09:02:47 debian kernel: [    1.699455] serio: i8042 KBD port at 0x60,0x64 irq 1
+Apr  8 09:02:47 debian kernel: [    1.699468] serio: i8042 AUX port at 0x60,0x64 irq 12
+Apr  8 09:02:47 debian kernel: [    1.699644] mousedev: PS/2 mouse device common for all mice
+Apr  8 09:02:47 debian kernel: [    1.699955] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Apr  8 09:02:47 debian kernel: [    1.700563] rtc_cmos rtc_cmos: registered as rtc0
+Apr  8 09:02:47 debian kernel: [    1.700666] rtc_cmos rtc_cmos: setting system clock to 2023-04-08T12:02:37 UTC (1680955357)
+Apr  8 09:02:47 debian kernel: [    1.700769] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Apr  8 09:02:47 debian kernel: [    1.700779] intel_pstate: CPU model not supported
+Apr  8 09:02:47 debian kernel: [    1.700877] ledtrig-cpu: registered to indicate activity on CPUs
+Apr  8 09:02:47 debian kernel: [    1.701119] NET: Registered protocol family 10
+Apr  8 09:02:47 debian kernel: [    1.715705] Segment Routing with IPv6
+Apr  8 09:02:47 debian kernel: [    1.715734] mip6: Mobile IPv6
+Apr  8 09:02:47 debian kernel: [    1.715737] NET: Registered protocol family 17
+Apr  8 09:02:47 debian kernel: [    1.715869] mpls_gso: MPLS GSO support
+Apr  8 09:02:47 debian kernel: [    1.716083] IPI shorthand broadcast: enabled
+Apr  8 09:02:47 debian kernel: [    1.716090] sched_clock: Marking stable (1688112716, 27910143)->(1754652002, -38629143)
+Apr  8 09:02:47 debian kernel: [    1.716371] registered taskstats version 1
+Apr  8 09:02:47 debian kernel: [    1.716375] Loading compiled-in X.509 certificates
+Apr  8 09:02:47 debian kernel: [    1.761319] Loaded X.509 cert 'Debian Secure Boot CA: 6ccece7e4c6c0d1f6149f3dd27dfcc5cbb419ea1'
+Apr  8 09:02:47 debian kernel: [    1.761350] Loaded X.509 cert 'Debian Secure Boot Signer 2022 - linux: 14011249c2675ea8e5148542202005810584b25f'
+Apr  8 09:02:47 debian kernel: [    1.761385] zswap: loaded using pool lzo/zbud
+Apr  8 09:02:47 debian kernel: [    1.761676] Key type .fscrypt registered
+Apr  8 09:02:47 debian kernel: [    1.761678] Key type fscrypt-provisioning registered
+Apr  8 09:02:47 debian kernel: [    1.761726] AppArmor: AppArmor sha1 policy hashing enabled
+Apr  8 09:02:47 debian kernel: [    1.763454] Freeing unused decrypted memory: 2036K
+Apr  8 09:02:47 debian kernel: [    1.764221] Freeing unused kernel image (initmem) memory: 2660K
+Apr  8 09:02:47 debian kernel: [    1.778720] Write protecting the kernel read-only data: 22528k
+Apr  8 09:02:47 debian kernel: [    1.779448] Freeing unused kernel image (text/rodata gap) memory: 2040K
+Apr  8 09:02:47 debian kernel: [    1.779684] Freeing unused kernel image (rodata/data gap) memory: 632K
+Apr  8 09:02:47 debian kernel: [    1.862040] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Apr  8 09:02:47 debian kernel: [    1.862043] x86/mm: Checking user space page tables
+Apr  8 09:02:47 debian kernel: [    1.942475] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Apr  8 09:02:47 debian kernel: [    1.942486] Run /init as init process
+Apr  8 09:02:47 debian kernel: [    2.049946] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+Apr  8 09:02:47 debian kernel: [    2.063245] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Apr  8 09:02:47 debian kernel: [    2.063291] battery: ACPI: Battery Slot [BAT0] (battery present)
+Apr  8 09:02:47 debian kernel: [    2.063370] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input3
+Apr  8 09:02:47 debian kernel: [    2.070000] ACPI: Power Button [PWRF]
+Apr  8 09:02:47 debian kernel: [    2.078768] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input4
+Apr  8 09:02:47 debian kernel: [    2.078813] ACPI: Sleep Button [SLPF]
+Apr  8 09:02:47 debian kernel: [    2.102894] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Apr  8 09:02:47 debian kernel: [    2.139873] e1000: Intel(R) PRO/1000 Network Driver
+Apr  8 09:02:47 debian kernel: [    2.139876] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Apr  8 09:02:47 debian kernel: [    2.151867] ACPI: bus type USB registered
+Apr  8 09:02:47 debian kernel: [    2.153238] usbcore: registered new interface driver usbfs
+Apr  8 09:02:47 debian kernel: [    2.153268] usbcore: registered new interface driver hub
+Apr  8 09:02:47 debian kernel: [    2.153314] usbcore: registered new device driver usb
+Apr  8 09:02:47 debian kernel: [    2.159373] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Apr  8 09:02:47 debian kernel: [    2.172474] ehci-pci: EHCI PCI platform driver
+Apr  8 09:02:47 debian kernel: [    2.177533] ehci-pci 0000:00:0b.0: EHCI Host Controller
+Apr  8 09:02:47 debian kernel: [    2.177543] ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+Apr  8 09:02:47 debian kernel: [    2.177849] ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+Apr  8 09:02:47 debian kernel: [    2.181758] SCSI subsystem initialized
+Apr  8 09:02:47 debian kernel: [    2.193105] ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+Apr  8 09:02:47 debian kernel: [    2.194955] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.10
+Apr  8 09:02:47 debian kernel: [    2.194957] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr  8 09:02:47 debian kernel: [    2.194959] usb usb1: Product: EHCI Host Controller
+Apr  8 09:02:47 debian kernel: [    2.194961] usb usb1: Manufacturer: Linux 5.10.0-21-amd64 ehci_hcd
+Apr  8 09:02:47 debian kernel: [    2.194962] usb usb1: SerialNumber: 0000:00:0b.0
+Apr  8 09:02:47 debian kernel: [    2.195154] hub 1-0:1.0: USB hub found
+Apr  8 09:02:47 debian kernel: [    2.195167] hub 1-0:1.0: 12 ports detected
+Apr  8 09:02:47 debian kernel: [    2.199561] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Apr  8 09:02:47 debian kernel: [    2.202803] ohci-pci: OHCI PCI platform driver
+Apr  8 09:02:47 debian kernel: [    2.204126] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Apr  8 09:02:47 debian kernel: [    2.204135] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+Apr  8 09:02:47 debian kernel: [    2.204264] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Apr  8 09:02:47 debian kernel: [    2.253576] scsi host0: ata_piix
+Apr  8 09:02:47 debian kernel: [    2.268751] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.10
+Apr  8 09:02:47 debian kernel: [    2.268755] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr  8 09:02:47 debian kernel: [    2.268757] usb usb2: Product: OHCI PCI host controller
+Apr  8 09:02:47 debian kernel: [    2.268758] usb usb2: Manufacturer: Linux 5.10.0-21-amd64 ohci_hcd
+Apr  8 09:02:47 debian kernel: [    2.268760] usb usb2: SerialNumber: 0000:00:06.0
+Apr  8 09:02:47 debian kernel: [    2.269177] hub 2-0:1.0: USB hub found
+Apr  8 09:02:47 debian kernel: [    2.269205] hub 2-0:1.0: 12 ports detected
+Apr  8 09:02:47 debian kernel: [    2.282614] [drm] DMA map mode: Caching DMA mappings.
+Apr  8 09:02:47 debian kernel: [    2.282666] [drm] Capabilities:
+Apr  8 09:02:47 debian kernel: [    2.282667] [drm]   Rect copy.
+Apr  8 09:02:47 debian kernel: [    2.282668] [drm]   Cursor.
+Apr  8 09:02:47 debian kernel: [    2.282668] [drm]   Cursor bypass.
+Apr  8 09:02:47 debian kernel: [    2.282669] [drm]   Cursor bypass 2.
+Apr  8 09:02:47 debian kernel: [    2.282670] [drm]   Alpha cursor.
+Apr  8 09:02:47 debian kernel: [    2.282670] [drm]   Extended Fifo.
+Apr  8 09:02:47 debian kernel: [    2.282671] [drm]   Pitchlock.
+Apr  8 09:02:47 debian kernel: [    2.282672] [drm]   Irq mask.
+Apr  8 09:02:47 debian kernel: [    2.282673] [drm]   GMR.
+Apr  8 09:02:47 debian kernel: [    2.282673] [drm]   Traces.
+Apr  8 09:02:47 debian kernel: [    2.282674] [drm]   GMR2.
+Apr  8 09:02:47 debian kernel: [    2.282675] [drm]   Screen Object 2.
+Apr  8 09:02:47 debian kernel: [    2.282675] [drm]   Command Buffers.
+Apr  8 09:02:47 debian kernel: [    2.282677] [drm] Max GMR ids is 8192
+Apr  8 09:02:47 debian kernel: [    2.282678] [drm] Max number of GMR pages is 1048576
+Apr  8 09:02:47 debian kernel: [    2.282679] [drm] Max dedicated hypervisor surface memory is 507904 kiB
+Apr  8 09:02:47 debian kernel: [    2.282680] [drm] Maximum display memory size is 16384 kiB
+Apr  8 09:02:47 debian kernel: [    2.282681] [drm] VRAM at 0xe0000000 size is 16384 kiB
+Apr  8 09:02:47 debian kernel: [    2.282682] [drm] MMIO at 0xf0000000 size is 2048 kiB
+Apr  8 09:02:47 debian kernel: [    2.282805] scsi host1: ata_piix
+Apr  8 09:02:47 debian kernel: [    2.282859] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Apr  8 09:02:47 debian kernel: [    2.282860] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Apr  8 09:02:47 debian kernel: [    2.287600] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Apr  8 09:02:47 debian kernel: [    2.287811] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Apr  8 09:02:47 debian kernel: [    2.287814] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Apr  8 09:02:47 debian kernel: [    2.290648] [TTM] Zone  kernel: Available graphics memory: 1015256 KiB
+Apr  8 09:02:47 debian kernel: [    2.290654] [TTM] Initializing pool allocator
+Apr  8 09:02:47 debian kernel: [    2.290660] [TTM] Initializing DMA pool allocator
+Apr  8 09:02:47 debian kernel: [    2.299391] scsi host2: ahci
+Apr  8 09:02:47 debian kernel: [    2.299489] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Apr  8 09:02:47 debian kernel: [    2.325281] [drm] Screen Objects Display Unit initialized
+Apr  8 09:02:47 debian kernel: [    2.325407] [drm] width 720
+Apr  8 09:02:47 debian kernel: [    2.325420] [drm] height 400
+Apr  8 09:02:47 debian kernel: [    2.325425] [drm] bpp 32
+Apr  8 09:02:47 debian kernel: [    2.326044] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Apr  8 09:02:47 debian kernel: [    2.326221] [drm] Using command buffers with DMA pool.
+Apr  8 09:02:47 debian kernel: [    2.326233] [drm] Atomic: yes.
+Apr  8 09:02:47 debian kernel: [    2.342942] fbcon: svgadrmfb (fb0) is primary device
+Apr  8 09:02:47 debian kernel: [    2.354976] Console: switching to colour frame buffer device 100x37
+Apr  8 09:02:47 debian kernel: [    2.358532] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Apr  8 09:02:47 debian kernel: [    2.367765] [drm] Initialized vmwgfx 2.18.0 20200114 for 0000:00:02.0 on minor 0
+Apr  8 09:02:47 debian kernel: [    2.475350] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Apr  8 09:02:47 debian kernel: [    2.479922] scsi 1:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Apr  8 09:02:47 debian kernel: [    2.626650] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Apr  8 09:02:47 debian kernel: [    2.626822] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Apr  8 09:02:47 debian kernel: [    2.626824] ata3.00: 41943040 sectors, multi 128: LBA48 NCQ (depth 32)
+Apr  8 09:02:47 debian kernel: [    2.627383] ata3.00: configured for UDMA/133
+Apr  8 09:02:47 debian kernel: [    2.627593] scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Apr  8 09:02:47 debian kernel: [    2.678379] usb 2-1: new full-speed USB device number 2 using ohci-pci
+Apr  8 09:02:47 debian kernel: [    2.681081] sr 1:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Apr  8 09:02:47 debian kernel: [    2.681084] cdrom: Uniform CD-ROM driver Revision: 3.20
+Apr  8 09:02:47 debian kernel: [    2.763197] sd 2:0:0:0: [sda] 41943040 512-byte logical blocks: (21.5 GB/20.0 GiB)
+Apr  8 09:02:47 debian kernel: [    2.763205] sd 2:0:0:0: [sda] Write Protect is off
+Apr  8 09:02:47 debian kernel: [    2.763217] sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Apr  8 09:02:47 debian kernel: [    2.827967] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:f7:df:85
+Apr  8 09:02:47 debian kernel: [    2.827973] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Apr  8 09:02:47 debian kernel: [    2.831130]  sda: sda1 sda2 < sda5 >
+Apr  8 09:02:47 debian kernel: [    2.848669] sd 2:0:0:0: [sda] Attached SCSI disk
+Apr  8 09:02:47 debian kernel: [    2.849930] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Apr  8 09:02:47 debian kernel: [    2.992338] usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Apr  8 09:02:47 debian kernel: [    2.992342] usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Apr  8 09:02:47 debian kernel: [    2.992344] usb 2-1: Product: USB Tablet
+Apr  8 09:02:47 debian kernel: [    2.992346] usb 2-1: Manufacturer: VirtualBox
+Apr  8 09:02:47 debian kernel: [    3.005805] hid: raw HID events driver (C) Jiri Kosina
+Apr  8 09:02:47 debian kernel: [    3.018329] usbcore: registered new interface driver usbhid
+Apr  8 09:02:47 debian kernel: [    3.018331] usbhid: USB HID core driver
+Apr  8 09:02:47 debian kernel: [    3.026195] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input6
+Apr  8 09:02:47 debian kernel: [    3.027030] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Apr  8 09:02:47 debian kernel: [    3.322751] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Apr  8 09:02:47 debian kernel: [    3.561880] Not activating Mandatory Access Control as /sbin/tomoyo-init does not exist.
+Apr  8 09:02:47 debian kernel: [    5.985054] fuse: init (API version 7.32)
+Apr  8 09:02:47 debian kernel: [    6.187274] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Apr  8 09:02:47 debian kernel: [    6.259179] lp: driver loaded but no devices found
+Apr  8 09:02:47 debian kernel: [    6.345514] ppdev: user-space parallel port driver
+Apr  8 09:02:47 debian kernel: [    8.621333] audit: type=1400 audit(1680955364.420:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=256 comm="apparmor_parser"
+Apr  8 09:02:47 debian kernel: [    8.623127] audit: type=1400 audit(1680955364.420:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oopslash" pid=254 comm="apparmor_parser"
+Apr  8 09:02:47 debian kernel: [    8.658479] audit: type=1400 audit(1680955364.456:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=260 comm="apparmor_parser"
+Apr  8 09:02:47 debian kernel: [    8.675543] audit: type=1400 audit(1680955364.472:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=261 comm="apparmor_parser"
+Apr  8 09:02:47 debian kernel: [    8.675550] audit: type=1400 audit(1680955364.472:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=261 comm="apparmor_parser"
+Apr  8 09:02:47 debian kernel: [    8.697209] audit: type=1400 audit(1680955364.496:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=262 comm="apparmor_parser"
+Apr  8 09:02:47 debian kernel: [    8.886115] audit: type=1400 audit(1680955364.684:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=259 comm="apparmor_parser"
+Apr  8 09:02:47 debian kernel: [    8.886133] audit: type=1400 audit(1680955364.684:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd" pid=259 comm="apparmor_parser"
+Apr  8 09:02:47 debian kernel: [    8.886145] audit: type=1400 audit(1680955364.684:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd//third_party" pid=259 comm="apparmor_parser"
+Apr  8 09:02:47 debian kernel: [    8.974971] audit: type=1400 audit(1680955364.772:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/x86_64-linux-gnu/lightdm/lightdm-guest-session" pid=265 comm="apparmor_parser"
+Apr  8 09:02:47 debian kernel: [    9.642274] ACPI: AC Adapter [AC] (on-line)
+Apr  8 09:02:47 debian kernel: [    9.751336] vboxguest: host-version: 7.0.6r155176 0x8000000f
+Apr  8 09:02:47 debian kernel: [    9.752629] vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+Apr  8 09:02:47 debian kernel: [    9.753179] input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+Apr  8 09:02:47 debian kernel: [    9.759291] vboxguest: misc device minor 61, IRQ 20, I/O port d040, MMIO at 0x00000000f0400000 (size 0x0000000000400000)
+Apr  8 09:02:47 debian kernel: [    9.900001] input: PC Speaker as /devices/platform/pcspkr/input/input8
+Apr  8 09:02:47 debian kernel: [    9.928250] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Apr  8 09:02:47 debian kernel: [    9.928309] sd 2:0:0:0: Attached scsi generic sg1 type 0
+Apr  8 09:02:47 debian kernel: [   10.201498] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+Apr  8 09:02:47 debian kernel: [   10.487646] cryptd: max_cpu_qlen set to 1000
+Apr  8 09:02:47 debian kernel: [   10.647969] AVX2 version of gcm_enc/dec engaged.
+Apr  8 09:02:47 debian kernel: [   10.647971] AES CTR mode by8 optimization enabled
+Apr  8 09:02:47 debian kernel: [   10.783005] snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+Apr  8 09:02:47 debian kernel: [   10.789204] Adding 998396k swap on /dev/sda5.  Priority:-2 extents:1 across:998396k FS
+Apr  8 09:02:47 debian rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2102.0]
+Apr  8 09:02:47 debian rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="444" x-info="https://www.rsyslog.com"] start
+Apr  8 09:02:48 debian udisksd[446]: udisks daemon version 2.9.2 starting
+Apr  8 09:02:51 debian udisksd[446]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Apr  8 09:02:51 debian kernel: [   15.824959] kauditd_printk_skb: 7 callbacks suppressed
+Apr  8 09:02:51 debian kernel: [   15.824960] audit: type=1400 audit(1680955371.620:19): apparmor="DENIED" operation="capable" profile="/usr/sbin/cupsd" pid=538 comm="cupsd" capability=12  capname="net_admin"
+Apr  8 09:02:52 debian udisksd[446]: Failed to load the 'mdraid' libblockdev plugin
+Apr  8 09:02:52 debian kernel: [   17.017190] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Apr  8 09:02:52 debian kernel: [   17.017811] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Apr  8 09:02:52 debian kernel: [   17.032708] audit: type=1400 audit(1680955372.828:20): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=554 comm="cups-browsed" capability=23  capname="sys_nice"
+Apr  8 09:02:53 debian udisksd[446]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Apr  8 09:02:53 debian vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Apr  8 09:02:53 debian kernel: [   18.037161] 12:02:53.835220 main     VBoxService 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:52) release log
+Apr  8 09:02:53 debian kernel: [   18.037161] 12:02:53.83522
+Apr  8 09:02:53 debian kernel: [   18.037756] 12:02:53.836687 main     OS Product: Linux
+Apr  8 09:02:53 debian kernel: [   18.038245] 12:02:53.837125 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:02:53 debian kernel: [   18.038992] 12:02:53.837610 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:02:53 debian kernel: [   18.040573] 12:02:53.838359 main     Executable: /opt/VBoxGuestAdditions-7.0.4/sbin/VBoxService
+Apr  8 09:02:53 debian kernel: [   18.040573] 12:02:53.838361 main     Process ID: 635
+Apr  8 09:02:53 debian kernel: [   18.040573] 12
+Apr  8 09:02:53 debian kernel: [   18.071061] 12:02:53.869736 main     7.0.4 r154605 started. Verbose level = 0
+Apr  8 09:02:53 debian vboxadd-service.sh: VirtualBox Guest Addition service started.
+Apr  8 09:02:53 debian kernel: [   18.074909] 12:02:53.873232 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Apr  8 09:02:53 debian lightdm[613]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 09:02:53 debian kernel: [   18.109997] 12:02:53.907652 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:59) release log
+Apr  8 09:02:53 debian kernel: [   18.109997] 12:02:53.907657
+Apr  8 09:02:53 debian kernel: [   18.116589] 12:02:53.915410 main     OS Product: Linux
+Apr  8 09:02:53 debian kernel: [   18.117335] 12:02:53.916068 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:02:53 debian kernel: [   18.123768] 12:02:53.917437 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:02:53 debian kernel: [   18.125849] 12:02:53.923665 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxDRMClient
+Apr  8 09:02:53 debian kernel: [   18.125849] 12:02:53.923669 main     Process ID: 645
+Apr  8 09:02:53 debian kernel: [   18.125849] 1
+Apr  8 09:02:53 debian kernel: [   18.127742] 12:02:53.925662 main     VBoxDRMClient: found compatible device: /dev/dri/renderD128
+Apr  8 09:02:53 debian kernel: [   18.130510] 12:02:53.928693 main     VBoxDRMClient: IPC server socket access granted to all users
+Apr  8 09:02:59 debian lightdm[685]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 09:03:04 debian pulseaudio[705]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:03:04 debian pulseaudio[705]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:04:02 debian lightdm[756]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 09:04:04 debian pulseaudio[777]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:04:04 debian pulseaudio[777]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:04:04 debian kernel: [   18.136157] 12:02:53.934194 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:04:04 debian kernel: [   89.125541] 12:04:04.958563 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:04:04 debian kernel: [   89.125541] 12:04:04.958569
+Apr  8 09:04:04 debian kernel: [   89.126327] 12:04:04.960772 main     OS Product: Linux
+Apr  8 09:04:04 debian kernel: [   89.126836] 12:04:04.961181 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:04:04 debian kernel: [   89.127511] 12:04:04.961694 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:04:04 debian kernel: [   89.129198] 12:04:04.962367 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:04:04 debian kernel: [   89.129198] 12:04:04.962368 main     Process ID: 831
+Apr  8 09:04:04 debian kernel: [   89.129198] 12:0
+Apr  8 09:04:04 debian kernel: [   89.132992] 12:04:04.966761 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:04:04 debian kernel: [   89.133621] 12:04:04.967974 main      Service: Shared Clipboard
+Apr  8 09:04:04 debian kernel: [   89.155072] 12:04:04.989406 main      Initializing service ...
+Apr  8 09:04:04 debian kernel: [   89.155682] 12:04:04.989948 main      Creating worker thread ...
+Apr  8 09:04:05 debian kernel: [   89.158603] 12:04:04.991358 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:04:05 debian kernel: [   89.158603] 12:04:04.991363
+Apr  8 09:04:05 debian kernel: [   89.162002] 12:04:04.996440 main     OS Product: Linux
+Apr  8 09:04:05 debian kernel: [   89.162486] 12:04:04.996877 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:04:05 debian kernel: [   89.163164] 12:04:04.997359 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:04:05 debian kernel: [   89.164631] 12:04:04.998041 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:04:05 debian kernel: [   89.164631] 12:04:04.998043 main     Process ID: 836
+Apr  8 09:04:05 debian kernel: [   89.164631] 12:0
+Apr  8 09:04:05 debian kernel: [   89.166079] 12:04:04.999567 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:04:05 debian kernel: [   89.170218] 12:04:05.004174 main      Service: VirtualBox host version check
+Apr  8 09:04:05 debian kernel: [   89.176911] 12:04:05.011183 main      Creating worker thread ...
+Apr  8 09:04:05 debian kernel: [   89.184959] 12:04:05.016114 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:04:05 debian kernel: [   89.184959] 12:04:05.016120
+Apr  8 09:04:05 debian kernel: [   89.185510] 12:04:05.019223 main      Service started
+Apr  8 09:04:05 debian kernel: [   89.185970] 12:04:05.020300 main     OS Product: Linux
+Apr  8 09:04:05 debian kernel: [   89.186488] 12:04:05.020864 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:04:05 debian kernel: [   89.187461] 12:04:05.021585 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:04:05 debian kernel: [   89.189188] 12:04:05.022505 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:04:05 debian kernel: [   89.189188] 12:04:05.022508 main     Process ID: 846
+Apr  8 09:04:05 debian kernel: [   89.189188] 12:0
+Apr  8 09:04:05 debian kernel: [   89.190434] 12:04:05.024293 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:04:05 debian kernel: [   89.192024] 12:04:05.026325 main      Service: Seamless Mode Support
+Apr  8 09:04:05 debian kernel: [   89.199573] 12:04:05.033910 main      Initializing service ...
+Apr  8 09:04:05 debian kernel: [   89.203646] 12:04:05.037818 main      Creating worker thread ...
+Apr  8 09:04:05 debian kernel: [   89.209165] 12:04:05.043548 main      Service started
+Apr  8 09:04:05 debian kernel: [   89.220244] 12:04:05.049319 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:04:05 debian kernel: [   89.220244] 12:04:05.049328
+Apr  8 09:04:05 debian kernel: [   89.221075] 12:04:05.055405 main     OS Product: Linux
+Apr  8 09:04:05 debian kernel: [   89.221711] 12:04:05.056113 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:04:05 debian kernel: [   89.222645] 12:04:05.056615 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:04:05 debian kernel: [   89.223839] 12:04:05.057562 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:04:05 debian kernel: [   89.223839] 12:04:05.057566 main     Process ID: 854
+Apr  8 09:04:05 debian kernel: [   89.223839] 12:0
+Apr  8 09:04:05 debian kernel: [   89.224905] 12:04:05.058759 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:04:05 debian kernel: [   89.225442] 12:04:05.059820 main      Service: Drag'n'Drop
+Apr  8 09:04:05 debian kernel: [   89.231458] 12:04:05.065808 main      Initializing service ...
+Apr  8 09:04:05 debian kernel: [   89.240078] 12:04:05.074439 main      Creating worker thread ...
+Apr  8 09:04:05 debian kernel: [   89.246711] 12:04:05.080943 dnd       Proxy window=14680065, root window=1330 ...
+Apr  8 09:04:05 debian kernel: [   89.250839] 12:04:05.082953 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:04:05 debian kernel: [   89.250839] 12:04:05.082958
+Apr  8 09:04:05 debian kernel: [   89.252413] 12:04:05.083727 main      Service started
+Apr  8 09:04:05 debian kernel: [   89.254839] 12:04:05.086595 main     OS Product: Linux
+Apr  8 09:04:05 debian kernel: [   89.255407] 12:04:05.089818 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:04:05 debian kernel: [   89.256116] 12:04:05.090328 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:04:05 debian kernel: [   89.257580] 12:04:05.091036 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:04:05 debian kernel: [   89.257580] 12:04:05.091038 main     Process ID: 863
+Apr  8 09:04:05 debian kernel: [   89.257580] 12:0
+Apr  8 09:04:05 debian kernel: [   89.259634] 12:04:05.093453 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:04:05 debian kernel: [   89.261579] 12:04:05.094569 main      Service: VMSVGA display assistant
+Apr  8 09:04:05 debian kernel: [   89.270495] 12:04:05.104742 main      Initializing service ...
+Apr  8 09:04:05 debian kernel: [   89.278770] 12:04:05.113282 main      Service started
+Apr  8 09:04:05 debian kernel: [   89.281529] 12:04:05.115554 main     VBoxClient VMSVGA: probing Desktop Environment helper 'GNOME3'
+Apr  8 09:04:05 debian kernel: [   89.282465] 12:04:05.116532 main     VBoxClient VMSVGA: probing Desktop Environment helper 'GENERIC'
+Apr  8 09:04:05 debian kernel: [   89.289090] 12:04:05.123009 main     VBoxClient VMSVGA: attempt to start display change monitor thread, rc=VINF_SUCCESS
+Apr  8 09:04:05 debian kernel: [   89.290100] 12:04:05.124030 main     VBoxClient VMSVGA: using Desktop Environment specific display helper 'GENERIC'
+Apr  8 09:04:05 debian kernel: [   89.291348] 12:04:05.125281 main     VBoxClient VMSVGA: Creating worker thread ...
+Apr  8 09:04:05 debian kernel: [   89.294541] 12:04:05.128730 IpcCLT-867 VBoxDRMClient: IPC client connection started
+Apr  8 09:04:05 debian kernel: [   89.295840] 12:04:05.129881 main     VBoxClient VMSVGA: Service started
+Apr  8 09:04:08 debian kernel: [   92.721571] 12:04:08.556981 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:04:08 debian kernel: [   92.721571] 12:04:08.556985
+Apr  8 09:04:08 debian kernel: [   92.722148] 12:04:08.558351 main     OS Product: Linux
+Apr  8 09:04:08 debian kernel: [   92.722686] 12:04:08.558808 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:04:08 debian kernel: [   92.723521] 12:04:08.559349 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:04:08 debian kernel: [   92.726018] 12:04:08.561454 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:04:08 debian kernel: [   92.726018] 12:04:08.561456 main     Process ID: 984
+Apr  8 09:04:08 debian kernel: [   92.726018] 12:0
+Apr  8 09:04:08 debian kernel: [   92.727319] 12:04:08.562899 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:04:08 debian kernel: [   92.737304] 12:04:08.573423 main      Service: Shared Clipboard
+Apr  8 09:04:08 debian kernel: [   92.805929] 12:04:08.641467 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:04:08 debian kernel: [   92.805929] 12:04:08.641471
+Apr  8 09:04:08 debian kernel: [   92.806386] 12:04:08.642662 main     OS Product: Linux
+Apr  8 09:04:08 debian kernel: [   92.806869] 12:04:08.643088 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:04:08 debian kernel: [   92.808442] 12:04:08.643566 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:04:08 debian kernel: [   92.810392] 12:04:08.645730 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:04:08 debian kernel: [   92.810392] 12:04:08.645734 main     Process ID: 987
+Apr  8 09:04:08 debian kernel: [   92.810392] 12:0
+Apr  8 09:04:08 debian kernel: [   92.811490] 12:04:08.647303 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:04:08 debian kernel: [   92.813267] 12:04:08.649417 main      Service: VirtualBox host version check
+Apr  8 09:04:08 debian kernel: [   92.830455] 12:04:08.666057 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:04:08 debian kernel: [   92.830455] 12:04:08.666060
+Apr  8 09:04:08 debian kernel: [   92.830867] 12:04:08.667200 main     OS Product: Linux
+Apr  8 09:04:08 debian kernel: [   92.831305] 12:04:08.667581 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:04:08 debian kernel: [   92.832143] 12:04:08.668137 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:04:08 debian kernel: [   92.833228] 12:04:08.668903 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:04:08 debian kernel: [   92.833228] 12:04:08.668905 main     Process ID: 995
+Apr  8 09:04:08 debian kernel: [   92.833228] 12:0
+Apr  8 09:04:08 debian kernel: [   92.834297] 12:04:08.669989 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:04:08 debian kernel: [   92.834955] 12:04:08.671058 main      Service: Seamless Mode Support
+Apr  8 09:04:08 debian kernel: [   92.860296] 12:04:08.696589 main      Creating worker thread ...
+Apr  8 09:04:08 debian kernel: [   92.884601] 12:04:08.720376 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:04:08 debian kernel: [   92.884601] 12:04:08.720381
+Apr  8 09:04:08 debian kernel: [   92.885056] 12:04:08.721418 main     OS Product: Linux
+Apr  8 09:04:08 debian kernel: [   92.885563] 12:04:08.721807 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:04:08 debian kernel: [   92.886121] 12:04:08.722305 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:04:08 debian kernel: [   92.887005] 12:04:08.722856 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:04:08 debian kernel: [   92.887005] 12:04:08.722857 main     Process ID: 1002
+Apr  8 09:04:08 debian kernel: [   92.887005] 12:
+Apr  8 09:04:08 debian kernel: [   92.887783] 12:04:08.723743 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:04:08 debian kernel: [   92.888598] 12:04:08.724904 main      Error: Service failed to start!
+Apr  8 09:04:08 debian kernel: [   92.889147] 12:04:08.725334 main      Error: Service ended with error VERR_GENERAL_FAILURE
+Apr  8 09:04:08 debian kernel: [   92.892345] 12:04:08.728704 main      Service: Drag'n'Drop
+Apr  8 09:04:08 debian kernel: [   92.913848] 12:04:08.749281 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:04:08 debian kernel: [   92.913848] 12:04:08.749285
+Apr  8 09:04:08 debian kernel: [   92.914550] 12:04:08.750674 main     OS Product: Linux
+Apr  8 09:04:08 debian kernel: [   92.915606] 12:04:08.751764 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:04:08 debian kernel: [   92.916660] 12:04:08.752538 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:04:08 debian kernel: [   92.918168] 12:04:08.753486 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:04:08 debian kernel: [   92.918168] 12:04:08.753492 main     Process ID: 1012
+Apr  8 09:04:08 debian kernel: [   92.918168] 12:
+Apr  8 09:04:08 debian kernel: [   92.919427] 12:04:08.754972 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:04:08 debian kernel: [   92.920980] 12:04:08.757129 main      Service: VMSVGA display assistant
+Apr  8 09:04:08 debian kernel: [   92.940212] 12:04:08.776455 main      Initializing service ...
+Apr  8 09:04:08 debian kernel: [   92.945131] 12:04:08.780213 main     VBoxClient VMSVGA: Error: Service ended with error VERR_FILE_LOCK_VIOLATION
+Apr  8 09:04:09 debian colord[1000]: failed to get edid data: EDID length is too small
+Apr  8 09:04:10 debian org.freedesktop.thumbnails.Thumbnailer1[955]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Apr  8 09:04:10 debian org.freedesktop.thumbnails.Thumbnailer1[955]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Apr  8 09:04:10 debian org.freedesktop.thumbnails.Thumbnailer1[955]: Registered thumbnailer atril-thumbnailer -s %s %u %o
+Apr  8 09:04:13 debian pipewire-media-session[713]: error id:0 seq:158 res:-32 (Broken pipe): connection error
+Apr  8 09:06:25 debian kernel: [  229.791973] 12:06:25.696040 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:25 debian kernel: [  229.936530] 12:06:25.840141 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:26 debian kernel: [  230.067945] 12:06:25.972218 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:26 debian kernel: [  230.263126] 12:06:26.167291 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:30 debian kernel: [  230.517583] 12:06:26.420990 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:30 debian kernel: [  234.777804] 12:06:30.684325 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:31 debian kernel: [  234.914988] 12:06:30.821667 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:31 debian kernel: [  235.138243] 12:06:31.044947 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:31 debian kernel: [  235.390614] 12:06:31.297503 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:31 debian kernel: [  235.628878] 12:06:31.535078 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:31 debian kernel: [  235.802356] 12:06:31.709309 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:32 debian kernel: [  236.070500] 12:06:31.977550 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:32 debian kernel: [  236.186286] 12:06:32.093064 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:32 debian kernel: [  236.465299] 12:06:32.372478 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:32 debian kernel: [  236.644156] 12:06:32.550107 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:32 debian kernel: [  236.785980] 12:06:32.692268 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:32 debian kernel: [  236.935060] 12:06:32.842686 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:33 debian kernel: [  237.078743] 12:06:32.986388 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:06:33 debian kernel: [  237.240211] 12:06:33.144747 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:21:51 debian kernel: [  237.459875] 12:06:33.367886 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:21:51 debian kernel: [ 1155.291692] 12:21:51.659395 main      Terminating service
+Apr  8 09:21:51 debian kernel: [ 1155.292439] 12:21:51.660310 main      Service terminated
+Apr  8 09:21:51 debian kernel: [ 1155.292869] 12:21:51.660537 main      Terminating service
+Apr  8 09:21:51 debian kernel: [ 1155.293370] 12:21:51.661182 main      Service terminated
+Apr  8 09:24:09 debian udisksd[439]: udisks daemon version 2.9.2 starting
+Apr  8 09:24:09 debian rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2102.0]
+Apr  8 09:24:09 debian rsyslogd: [origin software="rsyslogd" swVersion="8.2102.0" x-pid="434" x-info="https://www.rsyslog.com"] start
+Apr  8 09:24:09 debian kernel: [    0.000000] Linux version 5.10.0-21-amd64 (debian-kernel@lists.debian.org) (gcc-10 (Debian 10.2.1-6) 10.2.1 20210110, GNU ld (GNU Binutils for Debian) 2.35.2) #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:09 debian kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.10.0-21-amd64 root=UUID=e7221505-6359-4f94-8394-28790b2bd726 ro quiet
+Apr  8 09:24:09 debian kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Apr  8 09:24:09 debian kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Apr  8 09:24:09 debian kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Apr  8 09:24:09 debian kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Apr  8 09:24:09 debian kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Apr  8 09:24:09 debian kernel: [    0.000000] BIOS-provided physical RAM map:
+Apr  8 09:24:09 debian kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Apr  8 09:24:09 debian kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Apr  8 09:24:09 debian kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Apr  8 09:24:09 debian kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000007ffeffff] usable
+Apr  8 09:24:09 debian kernel: [    0.000000] BIOS-e820: [mem 0x000000007fff0000-0x000000007fffffff] ACPI data
+Apr  8 09:24:09 debian kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Apr  8 09:24:09 debian kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Apr  8 09:24:09 debian kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Apr  8 09:24:09 debian kernel: [    0.000000] NX (Execute Disable) protection: active
+Apr  8 09:24:09 debian kernel: [    0.000000] SMBIOS 2.5 present.
+Apr  8 09:24:09 debian kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Apr  8 09:24:09 debian kernel: [    0.000000] Hypervisor detected: KVM
+Apr  8 09:24:09 debian kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Apr  8 09:24:09 debian kernel: [    0.000000] kvm-clock: cpu 0, msr 66401001, primary cpu clock
+Apr  8 09:24:09 debian kernel: [    0.000001] kvm-clock: using sched offset of 10360787726 cycles
+Apr  8 09:24:09 debian kernel: [    0.000003] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Apr  8 09:24:09 debian kernel: [    0.000007] tsc: Detected 2592.000 MHz processor
+Apr  8 09:24:09 debian kernel: [    0.001371] last_pfn = 0x7fff0 max_arch_pfn = 0x400000000
+Apr  8 09:24:09 debian kernel: [    0.001386] Disabled
+Apr  8 09:24:09 debian kernel: [    0.001388] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Apr  8 09:24:09 debian kernel: [    0.001391] CPU MTRRs all blank - virtualized system.
+Apr  8 09:24:09 debian kernel: [    0.001394] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Apr  8 09:24:09 debian kernel: [    0.001450] found SMP MP-table at [mem 0x0009fff0-0x0009ffff]
+Apr  8 09:24:09 debian kernel: [    0.085425] RAMDISK: [mem 0x32e1d000-0x35705fff]
+Apr  8 09:24:09 debian kernel: [    0.085430] ACPI: Early table checksum verification disabled
+Apr  8 09:24:09 debian kernel: [    0.085434] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Apr  8 09:24:09 debian kernel: [    0.085439] ACPI: XSDT 0x000000007FFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Apr  8 09:24:09 debian kernel: [    0.085446] ACPI: FACP 0x000000007FFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Apr  8 09:24:09 debian kernel: [    0.085453] ACPI: DSDT 0x000000007FFF0610 002353 (v02 VBOX   VBOXBIOS 00000002 INTL 20200925)
+Apr  8 09:24:09 debian kernel: [    0.085458] ACPI: FACS 0x000000007FFF0200 000040
+Apr  8 09:24:09 debian kernel: [    0.085462] ACPI: FACS 0x000000007FFF0200 000040
+Apr  8 09:24:09 debian kernel: [    0.085466] ACPI: APIC 0x000000007FFF0240 00005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Apr  8 09:24:09 debian kernel: [    0.085471] ACPI: SSDT 0x000000007FFF02A0 00036C (v01 VBOX   VBOXCPUT 00000002 INTL 20200925)
+Apr  8 09:24:09 debian kernel: [    0.085475] ACPI: Reserving FACP table memory at [mem 0x7fff00f0-0x7fff01e3]
+Apr  8 09:24:09 debian kernel: [    0.085477] ACPI: Reserving DSDT table memory at [mem 0x7fff0610-0x7fff2962]
+Apr  8 09:24:09 debian kernel: [    0.085478] ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+Apr  8 09:24:09 debian kernel: [    0.085479] ACPI: Reserving FACS table memory at [mem 0x7fff0200-0x7fff023f]
+Apr  8 09:24:09 debian kernel: [    0.085480] ACPI: Reserving APIC table memory at [mem 0x7fff0240-0x7fff029b]
+Apr  8 09:24:09 debian kernel: [    0.085482] ACPI: Reserving SSDT table memory at [mem 0x7fff02a0-0x7fff060b]
+Apr  8 09:24:09 debian kernel: [    0.085669] No NUMA configuration found
+Apr  8 09:24:09 debian kernel: [    0.085671] Faking a node at [mem 0x0000000000000000-0x000000007ffeffff]
+Apr  8 09:24:09 debian kernel: [    0.085680] NODE_DATA(0) allocated [mem 0x7ffc6000-0x7ffeffff]
+Apr  8 09:24:09 debian kernel: [    0.086128] Zone ranges:
+Apr  8 09:24:09 debian kernel: [    0.086129]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Apr  8 09:24:09 debian kernel: [    0.086131]   DMA32    [mem 0x0000000001000000-0x000000007ffeffff]
+Apr  8 09:24:09 debian kernel: [    0.086134]   Normal   empty
+Apr  8 09:24:09 debian kernel: [    0.086136]   Device   empty
+Apr  8 09:24:09 debian kernel: [    0.086138] Movable zone start for each node
+Apr  8 09:24:09 debian kernel: [    0.086141] Early memory node ranges
+Apr  8 09:24:09 debian kernel: [    0.086142]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Apr  8 09:24:09 debian kernel: [    0.086144]   node   0: [mem 0x0000000000100000-0x000000007ffeffff]
+Apr  8 09:24:09 debian kernel: [    0.086146] Initmem setup node 0 [mem 0x0000000000001000-0x000000007ffeffff]
+Apr  8 09:24:09 debian kernel: [    0.086158] On node 0, zone DMA: 1 pages in unavailable ranges
+Apr  8 09:24:09 debian kernel: [    0.086196] On node 0, zone DMA: 97 pages in unavailable ranges
+Apr  8 09:24:09 debian kernel: [    0.086865] On node 0, zone DMA32: 16 pages in unavailable ranges
+Apr  8 09:24:09 debian kernel: [    0.087276] ACPI: PM-Timer IO Port: 0x4008
+Apr  8 09:24:09 debian kernel: [    0.087342] IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+Apr  8 09:24:09 debian kernel: [    0.087345] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Apr  8 09:24:09 debian kernel: [    0.087347] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Apr  8 09:24:09 debian kernel: [    0.087352] Using ACPI (MADT) for SMP configuration information
+Apr  8 09:24:09 debian kernel: [    0.087359] smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Apr  8 09:24:09 debian kernel: [    0.087379] PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Apr  8 09:24:09 debian kernel: [    0.087381] PM: hibernation: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Apr  8 09:24:09 debian kernel: [    0.087382] PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Apr  8 09:24:09 debian kernel: [    0.087383] PM: hibernation: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Apr  8 09:24:09 debian kernel: [    0.087385] [mem 0x80000000-0xfebfffff] available for PCI devices
+Apr  8 09:24:09 debian kernel: [    0.087386] Booting paravirtualized kernel on KVM
+Apr  8 09:24:09 debian kernel: [    0.087389] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Apr  8 09:24:09 debian kernel: [    0.091351] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Apr  8 09:24:09 debian kernel: [    0.091449] percpu: Embedded 63 pages/cpu s221184 r8192 d28672 u1048576
+Apr  8 09:24:09 debian kernel: [    0.091481] kvm-guest: PV spinlocks enabled
+Apr  8 09:24:09 debian kernel: [    0.091484] PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.091491] Built 1 zonelists, mobility grouping on.  Total pages: 515961
+Apr  8 09:24:09 debian kernel: [    0.091492] Policy zone: DMA32
+Apr  8 09:24:09 debian kernel: [    0.091493] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.10.0-21-amd64 root=UUID=e7221505-6359-4f94-8394-28790b2bd726 ro quiet
+Apr  8 09:24:09 debian kernel: [    0.091621] Dentry cache hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.091660] Inode-cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.091705] mem auto-init: stack:off, heap alloc:on, heap free:off
+Apr  8 09:24:09 debian kernel: [    0.094861] Memory: 261408K/2096696K available (12295K kernel code, 2537K rwdata, 7560K rodata, 2660K init, 5468K bss, 115476K reserved, 0K cma-reserved)
+Apr  8 09:24:09 debian kernel: [    0.095530] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Apr  8 09:24:09 debian kernel: [    0.095568] Kernel/User page tables isolation: enabled
+Apr  8 09:24:09 debian kernel: [    0.095585] ftrace: allocating 36545 entries in 143 pages
+Apr  8 09:24:09 debian kernel: [    0.118470] ftrace: allocated 143 pages with 5 groups
+Apr  8 09:24:09 debian kernel: [    0.118620] rcu: Hierarchical RCU implementation.
+Apr  8 09:24:09 debian kernel: [    0.118622] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+Apr  8 09:24:09 debian kernel: [    0.118623] 	Rude variant of Tasks RCU enabled.
+Apr  8 09:24:09 debian kernel: [    0.118624] 	Tracing variant of Tasks RCU enabled.
+Apr  8 09:24:09 debian kernel: [    0.118625] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+Apr  8 09:24:09 debian kernel: [    0.118626] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+Apr  8 09:24:09 debian kernel: [    0.124290] NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+Apr  8 09:24:09 debian kernel: [    0.124710] random: crng init done
+Apr  8 09:24:09 debian kernel: [    0.139980] Console: colour VGA+ 80x25
+Apr  8 09:24:09 debian kernel: [    0.139992] printk: console [tty0] enabled
+Apr  8 09:24:09 debian kernel: [    0.140007] ACPI: Core revision 20200925
+Apr  8 09:24:09 debian kernel: [    0.140092] APIC: Switch to symmetric I/O mode setup
+Apr  8 09:24:09 debian kernel: [    0.140461] x2apic enabled
+Apr  8 09:24:09 debian kernel: [    0.140820] Switched APIC routing to physical x2apic.
+Apr  8 09:24:09 debian kernel: [    0.142437] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Apr  8 09:24:09 debian kernel: [    0.142472] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x255cb6cc5db, max_idle_ns: 440795203504 ns
+Apr  8 09:24:09 debian kernel: [    0.142476] Calibrating delay loop (skipped) preset value.. 5184.00 BogoMIPS (lpj=10368000)
+Apr  8 09:24:09 debian kernel: [    0.142479] pid_max: default: 32768 minimum: 301
+Apr  8 09:24:09 debian kernel: [    0.142505] LSM: Security Framework initializing
+Apr  8 09:24:09 debian kernel: [    0.142513] Yama: disabled by default; enable with sysctl kernel.yama.*
+Apr  8 09:24:09 debian kernel: [    0.142537] AppArmor: AppArmor initialized
+Apr  8 09:24:09 debian kernel: [    0.142539] TOMOYO Linux initialized
+Apr  8 09:24:09 debian kernel: [    0.142553] Mount-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.142557] Mountpoint-cache hash table entries: 4096 (order: 3, 32768 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.142895] Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+Apr  8 09:24:09 debian kernel: [    0.142897] Last level dTLB entries: 4KB 64, 2MB 0, 4MB 0, 1GB 4
+Apr  8 09:24:09 debian kernel: [    0.142901] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Apr  8 09:24:09 debian kernel: [    0.142903] Spectre V2 : Mitigation: Retpolines
+Apr  8 09:24:09 debian kernel: [    0.142927] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Apr  8 09:24:09 debian kernel: [    0.142928] Spectre V2 : Spectre v2 / SpectreRSB : Filling RSB on VMEXIT
+Apr  8 09:24:09 debian kernel: [    0.143454] RETBleed: Vulnerable
+Apr  8 09:24:09 debian kernel: [    0.143455] Speculative Store Bypass: Vulnerable
+Apr  8 09:24:09 debian kernel: [    0.143461] MDS: Mitigation: Clear CPU buffers
+Apr  8 09:24:09 debian kernel: [    0.143462] MMIO Stale Data: Mitigation: Clear CPU buffers
+Apr  8 09:24:09 debian kernel: [    0.143464] SRBDS: Unknown: Dependent on hypervisor status
+Apr  8 09:24:09 debian kernel: [    0.146474] Freeing SMP alternatives memory: 32K
+Apr  8 09:24:09 debian kernel: [    0.264702] APIC calibration not consistent with PM-Timer: 103ms instead of 100ms
+Apr  8 09:24:09 debian kernel: [    0.264704] APIC delta adjusted to PM-Timer: 6432323 (6638670)
+Apr  8 09:24:09 debian kernel: [    0.264810] smpboot: CPU0: Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz (family: 0x6, model: 0x4e, stepping: 0x3)
+Apr  8 09:24:09 debian kernel: [    0.264987] Performance Events: unsupported p6 CPU model 78 no PMU driver, software events only.
+Apr  8 09:24:09 debian kernel: [    0.265018] rcu: Hierarchical SRCU implementation.
+Apr  8 09:24:09 debian kernel: [    0.265345] NMI watchdog: Perf NMI watchdog permanently disabled
+Apr  8 09:24:09 debian kernel: [    0.265396] smp: Bringing up secondary CPUs ...
+Apr  8 09:24:09 debian kernel: [    0.265472] x86: Booting SMP configuration:
+Apr  8 09:24:09 debian kernel: [    0.265473] .... node  #0, CPUs:      #1
+Apr  8 09:24:09 debian kernel: [    0.021786] kvm-clock: cpu 1, msr 66401041, secondary cpu clock
+Apr  8 09:24:09 debian kernel: [    0.266474] smp: Brought up 1 node, 2 CPUs
+Apr  8 09:24:09 debian kernel: [    0.266474] smpboot: Max logical packages: 1
+Apr  8 09:24:09 debian kernel: [    0.266474] smpboot: Total of 2 processors activated (10368.00 BogoMIPS)
+Apr  8 09:24:09 debian kernel: [    0.270962] node 0 deferred pages initialised in 8ms
+Apr  8 09:24:09 debian kernel: [    0.271131] devtmpfs: initialized
+Apr  8 09:24:09 debian kernel: [    0.271131] x86/mm: Memory block size: 128MB
+Apr  8 09:24:09 debian kernel: [    0.271131] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Apr  8 09:24:09 debian kernel: [    0.271131] futex hash table entries: 512 (order: 3, 32768 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.271131] pinctrl core: initialized pinctrl subsystem
+Apr  8 09:24:09 debian kernel: [    0.271131] NET: Registered protocol family 16
+Apr  8 09:24:09 debian kernel: [    0.271131] DMA: preallocated 256 KiB GFP_KERNEL pool for atomic allocations
+Apr  8 09:24:09 debian kernel: [    0.271131] DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+Apr  8 09:24:09 debian kernel: [    0.271131] DMA: preallocated 256 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+Apr  8 09:24:09 debian kernel: [    0.271131] audit: initializing netlink subsys (disabled)
+Apr  8 09:24:09 debian kernel: [    0.271131] thermal_sys: Registered thermal governor 'fair_share'
+Apr  8 09:24:09 debian kernel: [    0.271131] thermal_sys: Registered thermal governor 'bang_bang'
+Apr  8 09:24:09 debian kernel: [    0.271131] thermal_sys: Registered thermal governor 'step_wise'
+Apr  8 09:24:09 debian kernel: [    0.271131] thermal_sys: Registered thermal governor 'user_space'
+Apr  8 09:24:09 debian kernel: [    0.271131] thermal_sys: Registered thermal governor 'power_allocator'
+Apr  8 09:24:09 debian kernel: [    0.271131] cpuidle: using governor ladder
+Apr  8 09:24:09 debian kernel: [    0.271131] cpuidle: using governor menu
+Apr  8 09:24:09 debian kernel: [    0.271131] ACPI: bus type PCI registered
+Apr  8 09:24:09 debian kernel: [    0.271131] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Apr  8 09:24:09 debian kernel: [    0.271131] PCI: Using configuration type 1 for base access
+Apr  8 09:24:09 debian kernel: [    0.271671] Kprobes globally optimized
+Apr  8 09:24:09 debian kernel: [    0.271680] audit: type=2000 audit(1680956656.044:1): state=initialized audit_enabled=0 res=1
+Apr  8 09:24:09 debian kernel: [    0.274501] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Apr  8 09:24:09 debian kernel: [    0.398551] ACPI: Added _OSI(Module Device)
+Apr  8 09:24:09 debian kernel: [    0.398552] ACPI: Added _OSI(Processor Device)
+Apr  8 09:24:09 debian kernel: [    0.398553] ACPI: Added _OSI(3.0 _SCP Extensions)
+Apr  8 09:24:09 debian kernel: [    0.398554] ACPI: Added _OSI(Processor Aggregator Device)
+Apr  8 09:24:09 debian kernel: [    0.398555] ACPI: Added _OSI(Linux-Dell-Video)
+Apr  8 09:24:09 debian kernel: [    0.398556] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Apr  8 09:24:09 debian kernel: [    0.398557] ACPI: Added _OSI(Linux-HPI-Hybrid-Graphics)
+Apr  8 09:24:09 debian kernel: [    0.400594] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Apr  8 09:24:09 debian kernel: [    0.402002] ACPI: Interpreter enabled
+Apr  8 09:24:09 debian kernel: [    0.402011] ACPI: (supports S0 S5)
+Apr  8 09:24:09 debian kernel: [    0.402013] ACPI: Using IOAPIC for interrupt routing
+Apr  8 09:24:09 debian kernel: [    0.402195] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Apr  8 09:24:09 debian kernel: [    0.402310] ACPI: Enabled 2 GPEs in block 00 to 07
+Apr  8 09:24:09 debian kernel: [    0.406774] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Apr  8 09:24:09 debian kernel: [    0.406778] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI HPX-Type3]
+Apr  8 09:24:09 debian kernel: [    0.407220] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Apr  8 09:24:09 debian kernel: [    0.407227] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Apr  8 09:24:09 debian kernel: [    0.407537] PCI host bridge to bus 0000:00
+Apr  8 09:24:09 debian kernel: [    0.407539] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Apr  8 09:24:09 debian kernel: [    0.407541] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Apr  8 09:24:09 debian kernel: [    0.407542] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Apr  8 09:24:09 debian kernel: [    0.407543] pci_bus 0000:00: root bus resource [mem 0x80000000-0xfdffffff window]
+Apr  8 09:24:09 debian kernel: [    0.407545] pci_bus 0000:00: root bus resource [bus 00-ff]
+Apr  8 09:24:09 debian kernel: [    0.407585] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Apr  8 09:24:09 debian kernel: [    0.408276] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Apr  8 09:24:09 debian kernel: [    0.408996] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Apr  8 09:24:09 debian kernel: [    0.409364] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Apr  8 09:24:09 debian kernel: [    0.409517] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Apr  8 09:24:09 debian kernel: [    0.409518] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Apr  8 09:24:09 debian kernel: [    0.409519] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Apr  8 09:24:09 debian kernel: [    0.409520] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Apr  8 09:24:09 debian kernel: [    0.409772] pci 0000:00:02.0: [15ad:0405] type 00 class 0x030000
+Apr  8 09:24:09 debian kernel: [    0.410713] pci 0000:00:02.0: reg 0x10: [io  0xd010-0xd01f]
+Apr  8 09:24:09 debian kernel: [    0.411831] pci 0000:00:02.0: reg 0x14: [mem 0xe0000000-0xe0ffffff pref]
+Apr  8 09:24:09 debian kernel: [    0.413108] pci 0000:00:02.0: reg 0x18: [mem 0xf0000000-0xf01fffff]
+Apr  8 09:24:09 debian kernel: [    0.418454] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Apr  8 09:24:09 debian kernel: [    0.418563] pci 0000:00:03.0: reg 0x10: [mem 0xf0200000-0xf021ffff]
+Apr  8 09:24:09 debian kernel: [    0.420230] pci 0000:00:03.0: reg 0x18: [io  0xd020-0xd027]
+Apr  8 09:24:09 debian kernel: [    0.423997] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Apr  8 09:24:09 debian kernel: [    0.424923] pci 0000:00:04.0: reg 0x10: [io  0xd040-0xd05f]
+Apr  8 09:24:09 debian kernel: [    0.425705] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Apr  8 09:24:09 debian kernel: [    0.426537] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Apr  8 09:24:09 debian kernel: [    0.430238] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Apr  8 09:24:09 debian kernel: [    0.430348] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Apr  8 09:24:09 debian kernel: [    0.430406] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Apr  8 09:24:09 debian kernel: [    0.430870] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Apr  8 09:24:09 debian kernel: [    0.431943] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Apr  8 09:24:09 debian kernel: [    0.437702] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Apr  8 09:24:09 debian kernel: [    0.438611] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Apr  8 09:24:09 debian kernel: [    0.438637] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Apr  8 09:24:09 debian kernel: [    0.439013] pci 0000:00:0b.0: [8086:265c] type 00 class 0x0c0320
+Apr  8 09:24:09 debian kernel: [    0.439902] pci 0000:00:0b.0: reg 0x10: [mem 0xf0805000-0xf0805fff]
+Apr  8 09:24:09 debian kernel: [    0.445672] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Apr  8 09:24:09 debian kernel: [    0.446570] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Apr  8 09:24:09 debian kernel: [    0.447430] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Apr  8 09:24:09 debian kernel: [    0.448414] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Apr  8 09:24:09 debian kernel: [    0.449255] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Apr  8 09:24:09 debian kernel: [    0.450123] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Apr  8 09:24:09 debian kernel: [    0.450548] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Apr  8 09:24:09 debian kernel: [    0.452903] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Apr  8 09:24:09 debian kernel: [    0.453142] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Apr  8 09:24:09 debian kernel: [    0.453229] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Apr  8 09:24:09 debian kernel: [    0.453374] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Apr  8 09:24:09 debian kernel: [    0.453544] iommu: Default domain type: Translated 
+Apr  8 09:24:09 debian kernel: [    0.453584] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Apr  8 09:24:09 debian kernel: [    0.453586] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Apr  8 09:24:09 debian kernel: [    0.453589] pci 0000:00:02.0: vgaarb: bridge control possible
+Apr  8 09:24:09 debian kernel: [    0.453590] vgaarb: loaded
+Apr  8 09:24:09 debian kernel: [    0.453647] EDAC MC: Ver: 3.0.0
+Apr  8 09:24:09 debian kernel: [    0.453898] NetLabel: Initializing
+Apr  8 09:24:09 debian kernel: [    0.453898] NetLabel:  domain hash size = 128
+Apr  8 09:24:09 debian kernel: [    0.453898] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Apr  8 09:24:09 debian kernel: [    0.454504] NetLabel:  unlabeled traffic allowed by default
+Apr  8 09:24:09 debian kernel: [    0.454505] PCI: Using ACPI for IRQ routing
+Apr  8 09:24:09 debian kernel: [    0.454768] clocksource: Switched to clocksource kvm-clock
+Apr  8 09:24:09 debian kernel: [    0.464849] VFS: Disk quotas dquot_6.6.0
+Apr  8 09:24:09 debian kernel: [    0.464864] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Apr  8 09:24:09 debian kernel: [    0.464969] AppArmor: AppArmor Filesystem Enabled
+Apr  8 09:24:09 debian kernel: [    0.464986] pnp: PnP ACPI init
+Apr  8 09:24:09 debian kernel: [    0.465794] pnp: PnP ACPI: found 2 devices
+Apr  8 09:24:09 debian kernel: [    0.471458] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Apr  8 09:24:09 debian kernel: [    0.471516] NET: Registered protocol family 2
+Apr  8 09:24:09 debian kernel: [    0.471549] IP idents hash table entries: 32768 (order: 6, 262144 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.471993] tcp_listen_portaddr_hash hash table entries: 1024 (order: 2, 16384 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.472025] TCP established hash table entries: 16384 (order: 5, 131072 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.472051] TCP bind hash table entries: 16384 (order: 6, 262144 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.472074] TCP: Hash tables configured (established 16384 bind 16384)
+Apr  8 09:24:09 debian kernel: [    0.472108] UDP hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.472115] UDP-Lite hash table entries: 1024 (order: 3, 32768 bytes, linear)
+Apr  8 09:24:09 debian kernel: [    0.472145] NET: Registered protocol family 1
+Apr  8 09:24:09 debian kernel: [    0.472150] NET: Registered protocol family 44
+Apr  8 09:24:09 debian kernel: [    0.472158] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Apr  8 09:24:09 debian kernel: [    0.472160] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Apr  8 09:24:09 debian kernel: [    0.472161] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Apr  8 09:24:09 debian kernel: [    0.472162] pci_bus 0000:00: resource 7 [mem 0x80000000-0xfdffffff window]
+Apr  8 09:24:09 debian kernel: [    0.472209] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Apr  8 09:24:09 debian kernel: [    0.472240] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Apr  8 09:24:09 debian kernel: [    0.472287] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Apr  8 09:24:09 debian kernel: [    0.474958] PCI: CLS 0 bytes, default 64
+Apr  8 09:24:09 debian kernel: [    0.475010] Trying to unpack rootfs image as initramfs...
+Apr  8 09:24:09 debian kernel: [    1.137306] Freeing initrd memory: 41892K
+Apr  8 09:24:09 debian kernel: [    1.137427] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x255cb6cc5db, max_idle_ns: 440795203504 ns
+Apr  8 09:24:09 debian kernel: [    1.137544] clocksource: Switched to clocksource tsc
+Apr  8 09:24:09 debian kernel: [    1.137577] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Apr  8 09:24:09 debian kernel: [    1.137930] Initialise system trusted keyrings
+Apr  8 09:24:09 debian kernel: [    1.137936] Key type blacklist registered
+Apr  8 09:24:09 debian kernel: [    1.138108] workingset: timestamp_bits=36 max_order=19 bucket_order=0
+Apr  8 09:24:09 debian kernel: [    1.139434] zbud: loaded
+Apr  8 09:24:09 debian kernel: [    1.139686] integrity: Platform Keyring initialized
+Apr  8 09:24:09 debian kernel: [    1.139688] Key type asymmetric registered
+Apr  8 09:24:09 debian kernel: [    1.139689] Asymmetric key parser 'x509' registered
+Apr  8 09:24:09 debian kernel: [    1.139695] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Apr  8 09:24:09 debian kernel: [    1.139884] io scheduler mq-deadline registered
+Apr  8 09:24:09 debian kernel: [    1.140443] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Apr  8 09:24:09 debian kernel: [    1.140782] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Apr  8 09:24:09 debian kernel: [    1.141066] Linux agpgart interface v0.103
+Apr  8 09:24:09 debian kernel: [    1.141142] AMD-Vi: AMD IOMMUv2 functionality not available on this system - This is not a bug.
+Apr  8 09:24:09 debian kernel: [    1.141356] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Apr  8 09:24:09 debian kernel: [    1.141885] serio: i8042 KBD port at 0x60,0x64 irq 1
+Apr  8 09:24:09 debian kernel: [    1.141889] serio: i8042 AUX port at 0x60,0x64 irq 12
+Apr  8 09:24:09 debian kernel: [    1.141976] mousedev: PS/2 mouse device common for all mice
+Apr  8 09:24:09 debian kernel: [    1.142362] rtc_cmos rtc_cmos: registered as rtc0
+Apr  8 09:24:09 debian kernel: [    1.142419] rtc_cmos rtc_cmos: setting system clock to 2023-04-08T12:24:04 UTC (1680956644)
+Apr  8 09:24:09 debian kernel: [    1.142433] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Apr  8 09:24:09 debian kernel: [    1.142439] intel_pstate: CPU model not supported
+Apr  8 09:24:09 debian kernel: [    1.142603] ledtrig-cpu: registered to indicate activity on CPUs
+Apr  8 09:24:09 debian kernel: [    1.142838] NET: Registered protocol family 10
+Apr  8 09:24:09 debian kernel: [    1.143224] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Apr  8 09:24:09 debian kernel: [    1.150827] Segment Routing with IPv6
+Apr  8 09:24:09 debian kernel: [    1.150852] mip6: Mobile IPv6
+Apr  8 09:24:09 debian kernel: [    1.150854] NET: Registered protocol family 17
+Apr  8 09:24:09 debian kernel: [    1.150941] mpls_gso: MPLS GSO support
+Apr  8 09:24:09 debian kernel: [    1.151116] IPI shorthand broadcast: enabled
+Apr  8 09:24:09 debian kernel: [    1.151123] sched_clock: Marking stable (1133302463, 17786625)->(1161896617, -10807529)
+Apr  8 09:24:09 debian kernel: [    1.151239] registered taskstats version 1
+Apr  8 09:24:09 debian kernel: [    1.151241] Loading compiled-in X.509 certificates
+Apr  8 09:24:09 debian kernel: [    1.179475] Loaded X.509 cert 'Debian Secure Boot CA: 6ccece7e4c6c0d1f6149f3dd27dfcc5cbb419ea1'
+Apr  8 09:24:09 debian kernel: [    1.179492] Loaded X.509 cert 'Debian Secure Boot Signer 2022 - linux: 14011249c2675ea8e5148542202005810584b25f'
+Apr  8 09:24:09 debian kernel: [    1.179524] zswap: loaded using pool lzo/zbud
+Apr  8 09:24:09 debian kernel: [    1.179914] Key type .fscrypt registered
+Apr  8 09:24:09 debian kernel: [    1.179915] Key type fscrypt-provisioning registered
+Apr  8 09:24:09 debian kernel: [    1.179952] AppArmor: AppArmor sha1 policy hashing enabled
+Apr  8 09:24:09 debian kernel: [    1.181186] Freeing unused decrypted memory: 2036K
+Apr  8 09:24:09 debian kernel: [    1.181691] Freeing unused kernel image (initmem) memory: 2660K
+Apr  8 09:24:09 debian kernel: [    1.194815] Write protecting the kernel read-only data: 22528k
+Apr  8 09:24:09 debian kernel: [    1.195827] Freeing unused kernel image (text/rodata gap) memory: 2040K
+Apr  8 09:24:09 debian kernel: [    1.196158] Freeing unused kernel image (rodata/data gap) memory: 632K
+Apr  8 09:24:09 debian kernel: [    1.262072] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Apr  8 09:24:09 debian kernel: [    1.262074] x86/mm: Checking user space page tables
+Apr  8 09:24:09 debian kernel: [    1.322041] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Apr  8 09:24:09 debian kernel: [    1.322047] Run /init as init process
+Apr  8 09:24:09 debian kernel: [    1.371617] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input2
+Apr  8 09:24:09 debian kernel: [    1.374923] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Apr  8 09:24:09 debian kernel: [    1.374990] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input3
+Apr  8 09:24:09 debian kernel: [    1.378252] battery: ACPI: Battery Slot [BAT0] (battery present)
+Apr  8 09:24:09 debian kernel: [    1.389001] ACPI: Power Button [PWRF]
+Apr  8 09:24:09 debian kernel: [    1.389091] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input4
+Apr  8 09:24:09 debian kernel: [    1.389113] ACPI: Sleep Button [SLPF]
+Apr  8 09:24:09 debian kernel: [    1.392525] SCSI subsystem initialized
+Apr  8 09:24:09 debian kernel: [    1.401159] e1000: Intel(R) PRO/1000 Network Driver
+Apr  8 09:24:09 debian kernel: [    1.401160] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Apr  8 09:24:09 debian kernel: [    1.424170] piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Apr  8 09:24:09 debian kernel: [    1.456130] ACPI: bus type USB registered
+Apr  8 09:24:09 debian kernel: [    1.456150] usbcore: registered new interface driver usbfs
+Apr  8 09:24:09 debian kernel: [    1.456158] usbcore: registered new interface driver hub
+Apr  8 09:24:09 debian kernel: [    1.456167] usbcore: registered new device driver usb
+Apr  8 09:24:09 debian kernel: [    1.459718] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Apr  8 09:24:09 debian kernel: [    1.460314] ehci-pci: EHCI PCI platform driver
+Apr  8 09:24:09 debian kernel: [    1.460908] ehci-pci 0000:00:0b.0: EHCI Host Controller
+Apr  8 09:24:09 debian kernel: [    1.460916] ehci-pci 0000:00:0b.0: new USB bus registered, assigned bus number 1
+Apr  8 09:24:09 debian kernel: [    1.461167] ehci-pci 0000:00:0b.0: irq 19, io mem 0xf0805000
+Apr  8 09:24:09 debian kernel: [    1.464731] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Apr  8 09:24:09 debian kernel: [    1.466125] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Apr  8 09:24:09 debian kernel: [    1.466266] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Apr  8 09:24:09 debian kernel: [    1.466267] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Apr  8 09:24:09 debian kernel: [    1.474701] ehci-pci 0000:00:0b.0: USB 2.0 started, EHCI 1.00
+Apr  8 09:24:09 debian kernel: [    1.474757] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002, bcdDevice= 5.10
+Apr  8 09:24:09 debian kernel: [    1.474758] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr  8 09:24:09 debian kernel: [    1.474760] usb usb1: Product: EHCI Host Controller
+Apr  8 09:24:09 debian kernel: [    1.474761] usb usb1: Manufacturer: Linux 5.10.0-21-amd64 ehci_hcd
+Apr  8 09:24:09 debian kernel: [    1.474762] usb usb1: SerialNumber: 0000:00:0b.0
+Apr  8 09:24:09 debian kernel: [    1.474861] hub 1-0:1.0: USB hub found
+Apr  8 09:24:09 debian kernel: [    1.474868] hub 1-0:1.0: 12 ports detected
+Apr  8 09:24:09 debian kernel: [    1.476259] ohci-pci: OHCI PCI platform driver
+Apr  8 09:24:09 debian kernel: [    1.477076] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Apr  8 09:24:09 debian kernel: [    1.477086] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 2
+Apr  8 09:24:09 debian kernel: [    1.477229] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Apr  8 09:24:09 debian kernel: [    1.482920] scsi host0: ata_piix
+Apr  8 09:24:09 debian kernel: [    1.489022] scsi host1: ahci
+Apr  8 09:24:09 debian kernel: [    1.489088] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Apr  8 09:24:09 debian kernel: [    1.508251] [drm] DMA map mode: Caching DMA mappings.
+Apr  8 09:24:09 debian kernel: [    1.508292] [drm] Capabilities:
+Apr  8 09:24:09 debian kernel: [    1.508293] [drm]   Rect copy.
+Apr  8 09:24:09 debian kernel: [    1.508293] [drm]   Cursor.
+Apr  8 09:24:09 debian kernel: [    1.508294] [drm]   Cursor bypass.
+Apr  8 09:24:09 debian kernel: [    1.508294] [drm]   Cursor bypass 2.
+Apr  8 09:24:09 debian kernel: [    1.508295] [drm]   Alpha cursor.
+Apr  8 09:24:09 debian kernel: [    1.508295] [drm]   Extended Fifo.
+Apr  8 09:24:09 debian kernel: [    1.508296] [drm]   Pitchlock.
+Apr  8 09:24:09 debian kernel: [    1.508296] [drm]   Irq mask.
+Apr  8 09:24:09 debian kernel: [    1.508297] [drm]   GMR.
+Apr  8 09:24:09 debian kernel: [    1.508297] [drm]   Traces.
+Apr  8 09:24:09 debian kernel: [    1.508298] [drm]   GMR2.
+Apr  8 09:24:09 debian kernel: [    1.508299] [drm]   Screen Object 2.
+Apr  8 09:24:09 debian kernel: [    1.508299] [drm]   Command Buffers.
+Apr  8 09:24:09 debian kernel: [    1.508300] [drm] Max GMR ids is 8192
+Apr  8 09:24:09 debian kernel: [    1.508301] [drm] Max number of GMR pages is 1048576
+Apr  8 09:24:09 debian kernel: [    1.508302] [drm] Max dedicated hypervisor surface memory is 507904 kiB
+Apr  8 09:24:09 debian kernel: [    1.508302] [drm] Maximum display memory size is 16384 kiB
+Apr  8 09:24:09 debian kernel: [    1.508303] [drm] VRAM at 0xe0000000 size is 16384 kiB
+Apr  8 09:24:09 debian kernel: [    1.508304] [drm] MMIO at 0xf0000000 size is 2048 kiB
+Apr  8 09:24:09 debian kernel: [    1.508485] [TTM] Zone  kernel: Available graphics memory: 1015256 KiB
+Apr  8 09:24:09 debian kernel: [    1.508486] [TTM] Initializing pool allocator
+Apr  8 09:24:09 debian kernel: [    1.508489] [TTM] Initializing DMA pool allocator
+Apr  8 09:24:09 debian kernel: [    1.508717] [drm] Screen Objects Display Unit initialized
+Apr  8 09:24:09 debian kernel: [    1.508813] [drm] width 720
+Apr  8 09:24:09 debian kernel: [    1.508822] [drm] height 400
+Apr  8 09:24:09 debian kernel: [    1.508825] [drm] bpp 32
+Apr  8 09:24:09 debian kernel: [    1.509273] [drm] Fifo max 0x00200000 min 0x00001000 cap 0x00000355
+Apr  8 09:24:09 debian kernel: [    1.509387] [drm] Using command buffers with DMA pool.
+Apr  8 09:24:09 debian kernel: [    1.509396] [drm] Atomic: yes.
+Apr  8 09:24:09 debian kernel: [    1.510120] scsi host2: ata_piix
+Apr  8 09:24:09 debian kernel: [    1.510302] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Apr  8 09:24:09 debian kernel: [    1.511120] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Apr  8 09:24:09 debian kernel: [    1.513875] fbcon: svgadrmfb (fb0) is primary device
+Apr  8 09:24:09 debian kernel: [    1.518709] Console: switching to colour frame buffer device 100x37
+Apr  8 09:24:09 debian kernel: [    1.523702] [drm] Initialized vmwgfx 2.18.0 20200114 for 0000:00:02.0 on minor 0
+Apr  8 09:24:09 debian kernel: [    1.535919] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 5.10
+Apr  8 09:24:09 debian kernel: [    1.535922] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr  8 09:24:09 debian kernel: [    1.535924] usb usb2: Product: OHCI PCI host controller
+Apr  8 09:24:09 debian kernel: [    1.535925] usb usb2: Manufacturer: Linux 5.10.0-21-amd64 ohci_hcd
+Apr  8 09:24:09 debian kernel: [    1.535927] usb usb2: SerialNumber: 0000:00:06.0
+Apr  8 09:24:09 debian kernel: [    1.536068] hub 2-0:1.0: USB hub found
+Apr  8 09:24:09 debian kernel: [    1.536089] hub 2-0:1.0: 12 ports detected
+Apr  8 09:24:09 debian kernel: [    1.655256] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Apr  8 09:24:09 debian kernel: [    1.686967] ata2.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Apr  8 09:24:09 debian kernel: [    1.810717] ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Apr  8 09:24:09 debian kernel: [    1.810925] ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Apr  8 09:24:09 debian kernel: [    1.810942] ata3.00: 41943040 sectors, multi 128: LBA48 NCQ (depth 32)
+Apr  8 09:24:09 debian kernel: [    1.811331] ata3.00: configured for UDMA/133
+Apr  8 09:24:09 debian kernel: [    1.811429] scsi 1:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Apr  8 09:24:09 debian kernel: [    1.811954] scsi 2:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Apr  8 09:24:09 debian kernel: [    1.822711] sd 1:0:0:0: [sda] 41943040 512-byte logical blocks: (21.5 GB/20.0 GiB)
+Apr  8 09:24:09 debian kernel: [    1.822720] sd 1:0:0:0: [sda] Write Protect is off
+Apr  8 09:24:09 debian kernel: [    1.822732] sd 1:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Apr  8 09:24:09 debian kernel: [    1.838785]  sda: sda1 sda2 < sda5 >
+Apr  8 09:24:09 debian kernel: [    1.853262] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:f7:df:85
+Apr  8 09:24:09 debian kernel: [    1.853267] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Apr  8 09:24:09 debian kernel: [    1.854611] sd 1:0:0:0: [sda] Attached SCSI disk
+Apr  8 09:24:09 debian kernel: [    1.856234] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Apr  8 09:24:09 debian kernel: [    1.877118] sr 2:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Apr  8 09:24:09 debian kernel: [    1.877121] cdrom: Uniform CD-ROM driver Revision: 3.20
+Apr  8 09:24:09 debian kernel: [    1.902584] usb 2-1: new full-speed USB device number 2 using ohci-pci
+Apr  8 09:24:09 debian kernel: [    2.217905] usb 2-1: New USB device found, idVendor=80ee, idProduct=0021, bcdDevice= 1.00
+Apr  8 09:24:09 debian kernel: [    2.217917] usb 2-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Apr  8 09:24:09 debian kernel: [    2.217924] usb 2-1: Product: USB Tablet
+Apr  8 09:24:09 debian kernel: [    2.217931] usb 2-1: Manufacturer: VirtualBox
+Apr  8 09:24:09 debian kernel: [    2.248992] hid: raw HID events driver (C) Jiri Kosina
+Apr  8 09:24:09 debian kernel: [    2.264405] usbcore: registered new interface driver usbhid
+Apr  8 09:24:09 debian kernel: [    2.264407] usbhid: USB HID core driver
+Apr  8 09:24:09 debian kernel: [    2.266150] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb2/2-1/2-1:1.0/0003:80EE:0021.0001/input/input6
+Apr  8 09:24:09 debian kernel: [    2.266574] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Apr  8 09:24:09 debian kernel: [    2.570710] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Apr  8 09:24:09 debian kernel: [    2.795767] Not activating Mandatory Access Control as /sbin/tomoyo-init does not exist.
+Apr  8 09:24:09 debian kernel: [    4.118819] fuse: init (API version 7.32)
+Apr  8 09:24:09 debian kernel: [    4.135239] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Apr  8 09:24:09 debian kernel: [    4.220947] lp: driver loaded but no devices found
+Apr  8 09:24:09 debian kernel: [    4.246043] ppdev: user-space parallel port driver
+Apr  8 09:24:09 debian kernel: [    4.938152] audit: type=1400 audit(1680956648.292:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-senddoc" pid=255 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    4.939784] audit: type=1400 audit(1680956648.292:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-oopslash" pid=253 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    4.967815] audit: type=1400 audit(1680956648.324:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-xpdfimport" pid=257 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.010033] audit: type=1400 audit(1680956648.364:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=258 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.010043] audit: type=1400 audit(1680956648.364:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=258 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.033480] audit: type=1400 audit(1680956648.388:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="lsb_release" pid=260 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.041250] audit: type=1400 audit(1680956648.396:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=256 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.041260] audit: type=1400 audit(1680956648.396:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd" pid=256 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.041266] audit: type=1400 audit(1680956648.396:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cupsd//third_party" pid=256 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.418568] audit: type=1400 audit(1680956648.772:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/x86_64-linux-gnu/lightdm/lightdm-guest-session" pid=262 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.418576] audit: type=1400 audit(1680956648.776:12): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/x86_64-linux-gnu/lightdm/lightdm-guest-session//chromium" pid=262 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.437150] audit: type=1400 audit(1680956648.792:13): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/cups-browsed" pid=264 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.461827] audit: type=1400 audit(1680956648.816:14): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=265 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.461833] audit: type=1400 audit(1680956648.816:15): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=265 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.461835] audit: type=1400 audit(1680956648.816:16): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=265 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.560734] audit: type=1400 audit(1680956648.916:17): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-soffice" pid=261 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.560739] audit: type=1400 audit(1680956648.916:18): apparmor="STATUS" operation="profile_load" profile="unconfined" name="libreoffice-soffice//gpg" pid=261 comm="apparmor_parser"
+Apr  8 09:24:09 debian kernel: [    5.671291] ACPI: AC Adapter [AC] (on-line)
+Apr  8 09:24:09 debian kernel: [    5.706214] vboxguest: host-version: 7.0.6r155176 0x8000000f
+Apr  8 09:24:09 debian kernel: [    5.718724] vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+Apr  8 09:24:09 debian kernel: [    5.719102] input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input7
+Apr  8 09:24:09 debian kernel: [    5.731610] vboxguest: misc device minor 61, IRQ 20, I/O port d040, MMIO at 0x00000000f0400000 (size 0x0000000000400000)
+Apr  8 09:24:09 debian kernel: [    5.786283] sd 1:0:0:0: Attached scsi generic sg0 type 0
+Apr  8 09:24:09 debian kernel: [    5.786365] sr 2:0:0:0: Attached scsi generic sg1 type 5
+Apr  8 09:24:09 debian kernel: [    5.808370] input: PC Speaker as /devices/platform/pcspkr/input/input8
+Apr  8 09:24:09 debian kernel: [    5.949711] RAPL PMU: API unit is 2^-32 Joules, 0 fixed counters, 10737418240 ms ovfl timer
+Apr  8 09:24:09 debian kernel: [    5.991509] cryptd: max_cpu_qlen set to 1000
+Apr  8 09:24:09 debian kernel: [    6.046141] AVX2 version of gcm_enc/dec engaged.
+Apr  8 09:24:09 debian kernel: [    6.046144] AES CTR mode by8 optimization enabled
+Apr  8 09:24:09 debian kernel: [    6.046164] Adding 998396k swap on /dev/sda5.  Priority:-2 extents:1 across:998396k FS
+Apr  8 09:24:09 debian kernel: [    6.186286] snd_intel8x0 0000:00:05.0: allow list rate for 1028:0177 is 48000
+Apr  8 09:24:09 debian udisksd[439]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Apr  8 09:24:09 debian udisksd[439]: Failed to load the 'mdraid' libblockdev plugin
+Apr  8 09:24:10 debian kernel: [    6.738165] audit: type=1400 audit(1680956650.092:19): apparmor="DENIED" operation="capable" profile="/usr/sbin/cupsd" pid=474 comm="cupsd" capability=12  capname="net_admin"
+Apr  8 09:24:10 debian udisksd[439]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Apr  8 09:24:10 debian kernel: [    6.881795] audit: type=1400 audit(1680956650.236:20): apparmor="DENIED" operation="capable" profile="/usr/sbin/cups-browsed" pid=492 comm="cups-browsed" capability=23  capname="sys_nice"
+Apr  8 09:24:10 debian kernel: [    6.936721] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Apr  8 09:24:10 debian kernel: [    6.937272] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready
+Apr  8 09:24:11 debian vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Apr  8 09:24:11 debian kernel: [    7.885541] 12:24:11.240847 main     VBoxService 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:52) release log
+Apr  8 09:24:11 debian kernel: [    7.885541] 12:24:11.24085
+Apr  8 09:24:11 debian kernel: [    7.886333] 12:24:11.243334 main     OS Product: Linux
+Apr  8 09:24:11 debian kernel: [    7.887023] 12:24:11.244019 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:11 debian kernel: [    7.888090] 12:24:11.244674 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:11 debian kernel: [    7.889795] 12:24:11.245919 main     Executable: /opt/VBoxGuestAdditions-7.0.4/sbin/VBoxService
+Apr  8 09:24:11 debian kernel: [    7.889795] 12:24:11.245923 main     Process ID: 624
+Apr  8 09:24:11 debian kernel: [    7.889795] 12
+Apr  8 09:24:11 debian kernel: [    7.908919] 12:24:11.265492 main     7.0.4 r154605 started. Verbose level = 0
+Apr  8 09:24:11 debian kernel: [    7.914418] 12:24:11.271078 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Apr  8 09:24:11 debian vboxadd-service.sh: VirtualBox Guest Addition service started.
+Apr  8 09:24:11 debian kernel: [    7.916843] 12:24:11.273174 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:59) release log
+Apr  8 09:24:11 debian kernel: [    7.916843] 12:24:11.273178
+Apr  8 09:24:11 debian kernel: [    7.917278] 12:24:11.274493 main     OS Product: Linux
+Apr  8 09:24:11 debian kernel: [    7.917767] 12:24:11.274898 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:11 debian kernel: [    7.918460] 12:24:11.275382 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:11 debian kernel: [    7.919964] 12:24:11.276322 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxDRMClient
+Apr  8 09:24:11 debian kernel: [    7.919964] 12:24:11.276324 main     Process ID: 635
+Apr  8 09:24:11 debian kernel: [    7.919964] 1
+Apr  8 09:24:11 debian kernel: [    7.926294] 12:24:11.278064 main     VBoxDRMClient: found compatible device: /dev/dri/renderD128
+Apr  8 09:24:11 debian kernel: [    7.929810] 12:24:11.286299 main     VBoxDRMClient: IPC server socket access granted to all users
+Apr  8 09:24:11 debian lightdm[617]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 09:24:13 debian lightdm[672]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 09:24:14 debian pulseaudio[692]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:24:14 debian pulseaudio[692]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:24:44 debian lightdm[743]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 09:24:45 debian pulseaudio[764]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:24:45 debian pulseaudio[764]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 09:24:45 debian kernel: [    7.941741] 12:24:11.298150 DrmResizeThread VBoxDRMClient: push screen layout data of 1 display(s) to DRM stack, fPartialLayout=false, rc=V
+Apr  8 09:24:45 debian kernel: [   42.465716] 12:24:45.838769 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:24:45 debian kernel: [   42.465716] 12:24:45.838774
+Apr  8 09:24:45 debian kernel: [   42.466912] 12:24:45.840698 main     OS Product: Linux
+Apr  8 09:24:45 debian kernel: [   42.467437] 12:24:45.841458 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:45 debian kernel: [   42.468118] 12:24:45.841969 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:45 debian kernel: [   42.469227] 12:24:45.842646 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:24:45 debian kernel: [   42.469227] 12:24:45.842647 main     Process ID: 818
+Apr  8 09:24:45 debian kernel: [   42.469227] 12:2
+Apr  8 09:24:45 debian kernel: [   42.470399] 12:24:45.843766 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:24:45 debian kernel: [   42.471436] 12:24:45.845561 main      Service: Shared Clipboard
+Apr  8 09:24:45 debian kernel: [   42.474874] 12:24:45.848823 main      Initializing service ...
+Apr  8 09:24:45 debian kernel: [   42.475400] 12:24:45.849416 main      Creating worker thread ...
+Apr  8 09:24:45 debian kernel: [   42.477638] 12:24:45.850952 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:24:45 debian kernel: [   42.477638] 12:24:45.850961
+Apr  8 09:24:45 debian kernel: [   42.478330] 12:24:45.852485 main     OS Product: Linux
+Apr  8 09:24:45 debian kernel: [   42.478802] 12:24:45.852918 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:45 debian kernel: [   42.479534] 12:24:45.853373 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:45 debian kernel: [   42.480671] 12:24:45.854132 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:24:45 debian kernel: [   42.480671] 12:24:45.854134 main     Process ID: 823
+Apr  8 09:24:45 debian kernel: [   42.480671] 12:2
+Apr  8 09:24:45 debian kernel: [   42.481924] 12:24:45.855270 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:24:45 debian kernel: [   42.482680] 12:24:45.856642 main      Service: VirtualBox host version check
+Apr  8 09:24:45 debian kernel: [   42.487787] 12:24:45.861845 main      Creating worker thread ...
+Apr  8 09:24:45 debian kernel: [   42.488910] 12:24:45.862052 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:24:45 debian kernel: [   42.488910] 12:24:45.862056
+Apr  8 09:24:45 debian kernel: [   42.489675] 12:24:45.863483 main     OS Product: Linux
+Apr  8 09:24:45 debian kernel: [   42.490185] 12:24:45.864227 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:45 debian kernel: [   42.491099] 12:24:45.864952 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:45 debian kernel: [   42.492508] 12:24:45.865643 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:24:45 debian kernel: [   42.492508] 12:24:45.865645 main     Process ID: 830
+Apr  8 09:24:45 debian kernel: [   42.492508] 12:2
+Apr  8 09:24:45 debian kernel: [   42.492851] 12:24:45.866885 main      Service started
+Apr  8 09:24:45 debian kernel: [   42.493977] 12:24:45.867169 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:24:45 debian kernel: [   42.495341] 12:24:45.868762 main      Service: Seamless Mode Support
+Apr  8 09:24:45 debian kernel: [   42.501431] 12:24:45.875525 main      Service started
+Apr  8 09:24:45 debian kernel: [   42.503117] 12:24:45.876636 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:24:45 debian kernel: [   42.503117] 12:24:45.876639
+Apr  8 09:24:45 debian kernel: [   42.503579] 12:24:45.877776 main     OS Product: Linux
+Apr  8 09:24:45 debian kernel: [   42.504027] 12:24:45.878171 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:45 debian kernel: [   42.504571] 12:24:45.878573 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:45 debian kernel: [   42.505450] 12:24:45.879116 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:24:45 debian kernel: [   42.505450] 12:24:45.879117 main     Process ID: 836
+Apr  8 09:24:45 debian kernel: [   42.505450] 12:2
+Apr  8 09:24:45 debian kernel: [   42.506442] 12:24:45.879999 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:24:45 debian kernel: [   42.506848] 12:24:45.880954 main      Initializing service ...
+Apr  8 09:24:45 debian kernel: [   42.507284] 12:24:45.881051 main      Service: Drag'n'Drop
+Apr  8 09:24:45 debian kernel: [   42.513795] 12:24:45.887164 main      Creating worker thread ...
+Apr  8 09:24:45 debian kernel: [   42.515542] 12:24:45.889563 main      Initializing service ...
+Apr  8 09:24:45 debian kernel: [   42.516173] 12:24:45.890312 main      Service started
+Apr  8 09:24:45 debian kernel: [   42.518496] 12:24:45.891660 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:24:45 debian kernel: [   42.518496] 12:24:45.891663
+Apr  8 09:24:45 debian kernel: [   42.518912] 12:24:45.893134 main     OS Product: Linux
+Apr  8 09:24:45 debian kernel: [   42.519303] 12:24:45.893464 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:45 debian kernel: [   42.519852] 12:24:45.893857 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:45 debian kernel: [   42.520831] 12:24:45.894404 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:24:45 debian kernel: [   42.520831] 12:24:45.894405 main     Process ID: 842
+Apr  8 09:24:45 debian kernel: [   42.520831] 12:2
+Apr  8 09:24:45 debian kernel: [   42.521760] 12:24:45.895391 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:24:45 debian kernel: [   42.522663] 12:24:45.896449 main      Service: VMSVGA display assistant
+Apr  8 09:24:45 debian kernel: [   42.526251] 12:24:45.900313 main      Initializing service ...
+Apr  8 09:24:45 debian kernel: [   42.528751] 12:24:45.902915 main      Creating worker thread ...
+Apr  8 09:24:45 debian kernel: [   42.530551] 12:24:45.904462 dnd       Proxy window=12582913, root window=1330 ...
+Apr  8 09:24:45 debian kernel: [   42.531173] 12:24:45.905426 main      Service started
+Apr  8 09:24:45 debian kernel: [   42.532780] 12:24:45.906472 main     VBoxClient VMSVGA: probing Desktop Environment helper 'GNOME3'
+Apr  8 09:24:45 debian kernel: [   42.533506] 12:24:45.907349 main     VBoxClient VMSVGA: probing Desktop Environment helper 'GENERIC'
+Apr  8 09:24:45 debian kernel: [   42.538505] 12:24:45.912092 main     VBoxClient VMSVGA: attempt to start display change monitor thread, rc=VINF_SUCCESS
+Apr  8 09:24:45 debian kernel: [   42.539635] 12:24:45.913137 main     VBoxClient VMSVGA: using Desktop Environment specific display helper 'GENERIC'
+Apr  8 09:24:45 debian kernel: [   42.540387] 12:24:45.914282 main     VBoxClient VMSVGA: Creating worker thread ...
+Apr  8 09:24:45 debian kernel: [   42.542576] 12:24:45.916502 IpcCLT-851 VBoxDRMClient: IPC client connection started
+Apr  8 09:24:45 debian kernel: [   42.544787] 12:24:45.918653 main     VBoxClient VMSVGA: Service started
+Apr  8 09:24:48 debian kernel: [   44.842378] 12:24:48.216463 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:24:48 debian kernel: [   44.842378] 12:24:48.216470
+Apr  8 09:24:48 debian kernel: [   44.843449] 12:24:48.218713 main     OS Product: Linux
+Apr  8 09:24:48 debian kernel: [   44.844169] 12:24:48.219187 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:48 debian kernel: [   44.862906] 12:24:48.237773 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:48 debian kernel: [   44.864662] 12:24:48.238658 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:24:48 debian kernel: [   44.864662] 12:24:48.238661 main     Process ID: 970
+Apr  8 09:24:48 debian kernel: [   44.864662] 12:2
+Apr  8 09:24:48 debian kernel: [   44.877890] 12:24:48.252558 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:24:48 debian kernel: [   44.878402] 12:24:48.253653 main      Service: Shared Clipboard
+Apr  8 09:24:48 debian colord[973]: failed to get edid data: EDID length is too small
+Apr  8 09:24:48 debian kernel: [   45.143124] 12:24:48.517386 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:24:48 debian kernel: [   45.143124] 12:24:48.517391
+Apr  8 09:24:48 debian kernel: [   45.143652] 12:24:48.519064 main     OS Product: Linux
+Apr  8 09:24:48 debian kernel: [   45.144215] 12:24:48.519536 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:48 debian kernel: [   45.145140] 12:24:48.520095 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:48 debian kernel: [   45.147072] 12:24:48.521510 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:24:48 debian kernel: [   45.147072] 12:24:48.521513 main     Process ID: 983
+Apr  8 09:24:48 debian kernel: [   45.147072] 12:2
+Apr  8 09:24:48 debian kernel: [   45.148811] 12:24:48.523250 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:24:48 debian kernel: [   45.150132] 12:24:48.525365 main      Service: VirtualBox host version check
+Apr  8 09:24:48 debian kernel: [   45.160403] 12:24:48.535713 main      Creating worker thread ...
+Apr  8 09:24:48 debian kernel: [   45.199266] 12:24:48.574738 main      Service started
+Apr  8 09:24:48 debian kernel: [   45.252617] 12:24:48.627369 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:24:48 debian kernel: [   45.252617] 12:24:48.627374
+Apr  8 09:24:48 debian kernel: [   45.253589] 12:24:48.629094 main     OS Product: Linux
+Apr  8 09:24:48 debian kernel: [   45.254102] 12:24:48.629517 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:48 debian kernel: [   45.255106] 12:24:48.630217 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:48 debian kernel: [   45.256349] 12:24:48.631037 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:24:48 debian kernel: [   45.256349] 12:24:48.631039 main     Process ID: 992
+Apr  8 09:24:48 debian kernel: [   45.256349] 12:2
+Apr  8 09:24:48 debian kernel: [   45.257991] 12:24:48.632289 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:24:48 debian kernel: [   45.261851] 12:24:48.637149 main      Service: Seamless Mode Support
+Apr  8 09:24:48 debian kernel: [   45.332653] 12:24:48.707407 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:24:48 debian kernel: [   45.332653] 12:24:48.707414
+Apr  8 09:24:48 debian kernel: [   45.335601] 12:24:48.711138 main     OS Product: Linux
+Apr  8 09:24:48 debian kernel: [   45.336119] 12:24:48.711571 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:48 debian kernel: [   45.336847] 12:24:48.712086 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:48 debian kernel: [   45.340364] 12:24:48.715152 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:24:48 debian kernel: [   45.340364] 12:24:48.715155 main     Process ID: 999
+Apr  8 09:24:48 debian kernel: [   45.340364] 12:2
+Apr  8 09:24:48 debian kernel: [   45.344321] 12:24:48.719273 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:24:48 debian kernel: [   45.352186] 12:24:48.727693 main      Service: Drag'n'Drop
+Apr  8 09:24:48 debian kernel: [   45.387595] 12:24:48.762448 main     VBoxClient 7.0.4 r154605 (verbosity: 0) linux.amd64 (Nov 16 2022 17:25:53) release log
+Apr  8 09:24:48 debian kernel: [   45.387595] 12:24:48.762451
+Apr  8 09:24:48 debian kernel: [   45.388034] 12:24:48.763632 main     OS Product: Linux
+Apr  8 09:24:48 debian kernel: [   45.388524] 12:24:48.764024 main     OS Release: 5.10.0-21-amd64
+Apr  8 09:24:48 debian kernel: [   45.390300] 12:24:48.765577 main     OS Version: #1 SMP Debian 5.10.162-1 (2023-01-21)
+Apr  8 09:24:48 debian kernel: [   45.393962] 12:24:48.768762 main     Executable: /opt/VBoxGuestAdditions-7.0.4/bin/VBoxClient
+Apr  8 09:24:48 debian kernel: [   45.393962] 12:24:48.768765 main     Process ID: 1004
+Apr  8 09:24:48 debian kernel: [   45.393962] 12:
+Apr  8 09:24:48 debian kernel: [   45.409977] 12:24:48.784953 main      VBoxClient 7.0.4 r154605 started. Verbose level = 0. Wayland environment detected: no
+Apr  8 09:24:48 debian kernel: [   45.410790] 12:24:48.786225 main      Service: VMSVGA display assistant
+Apr  8 09:24:48 debian kernel: [   45.452641] 12:24:48.828111 main      Initializing service ...
+Apr  8 09:24:48 debian kernel: [   45.460219] 12:24:48.835396 main     VBoxClient VMSVGA: Error: Service ended with error VERR_FILE_LOCK_VIOLATION
+Apr  8 09:24:49 debian org.freedesktop.thumbnails.Thumbnailer1[942]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Apr  8 09:24:49 debian org.freedesktop.thumbnails.Thumbnailer1[942]: Registered thumbnailer /usr/bin/gdk-pixbuf-thumbnailer -s %s %u %o
+Apr  8 09:24:49 debian org.freedesktop.thumbnails.Thumbnailer1[942]: Registered thumbnailer atril-thumbnailer -s %s %u %o
+Apr  8 09:24:55 debian pipewire-media-session[700]: error id:0 seq:158 res:-32 (Broken pipe): connection error
+Apr  8 10:22:12 debian lightdm[1745]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 10:22:12 debian pulseaudio[1765]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 10:22:12 debian pulseaudio[1765]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 10:25:10 debian gcr-prompter[1822]: could not grab keyboard: already grabbed
+Apr  8 10:25:40 debian lightdm[1811]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 10:25:51 debian pipewire-media-session[1769]: error id:0 seq:158 res:-32 (Broken pipe): connection error
+Apr  8 10:36:07 debian lightdm[1859]: Error getting user list from org.freedesktop.Accounts: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Accounts was not provided by any .service files
+Apr  8 10:36:07 debian pulseaudio[1880]: Disabling timer-based scheduling because running inside a VM.
+Apr  8 10:36:07 debian pulseaudio[1880]: Disabling timer-based scheduling because running inside a VM.
